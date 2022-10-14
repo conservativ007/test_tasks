@@ -1,0 +1,181 @@
+.ticket+.ticket {
+  margin-top: 66px;
+}
+
+.ticket {
+  width: 1070px;
+  height: 370px;
+  border-radius: 16px;
+  border: 0.5px solid #8E8E8E;
+
+  display: flex;
+}
+
+
+/* ticket left side */
+
+.ticket-image {
+  position: relative;
+  width: 473px;
+}
+
+.ticket-image__info {
+  position: absolute;
+  top: 45px;
+  left: -1px;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-image__image {
+  width: 466px;
+  height: 369px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* ticket right side */
+
+.ticket-info {
+  position: relative;
+  padding: 16px 10px 20px 20px;
+}
+
+.ticket-info__title-title {
+  font-size: 26px;
+  font-weight: 400;
+
+  line-height: 34px;
+}
+
+/* info timetrip */
+.ticket-info__timetrip {
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.ticket-info__timetrip img {
+  width: 16px;
+  height: 16px;
+}
+
+.ticket-info__timetrip .time_description {
+  font-size: 14px;
+  color: #9E9E9E;
+  margin-left: 5px;
+}
+
+/* info describe */
+
+.ticket-info__describe {
+  position: relative;
+}
+
+.ticket-info__describe_chedule {
+  position: absolute;
+  left: 260px;
+  bottom: -2px;
+}
+
+.ticket-info__describe>div {
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.ticket-info__describe div img {
+  width: 16px;
+  height: 16px;
+}
+
+.ticket-info__describe div p {
+  margin-left: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.ticket-info__time_chedule {
+  display: flex;
+}
+
+
+
+.ticket-info__describe_chedule span {
+  margin-left: 5px;
+  padding: 3px 16px;
+
+  background-color: #C5DCFF;
+  border-radius: 11px;
+
+  cursor: pointer;
+}
+
+
+/* ticket price */
+
+.ticket-price {
+  margin-top: 15px;
+}
+
+.ticket-price__price {
+  font-size: 36px;
+}
+
+.ticket-price__on-dock {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.ticket-price__on-dock img {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  margin-left: 3px;
+}
+
+.ticket-price__datails {
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  background-color: #FFD83C;
+  border-radius: 23px;
+  left: 160px;
+  bottom: 35px;
+
+  font-size: 18px;
+  line-height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.ticket-info .time-active {
+  background-color: #6BA6FF;
+}
+
+/* info in ticket image for desktop screen */
+.ticket-image__info.desktop-one {
+  width: 154px;
+  height: 42px;
+  background-color: #099CE8;
+  color: white;
+}
+
+.ticket-image__info.desktop-two {
+  width: 180px;
+  height: 45px;
+  background-color: #FFD83B;
+  color: black;
+}
