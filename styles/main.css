@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket+.ticket {
+  margin-top: 66px;
+}
+
+.ticket {
+  width: 1070px;
+  height: 370px;
+  border-radius: 15px;
+  border: 0.5px solid #8E8E8E;
+
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ticket left side */
+
+.ticket-image {
+  position: relative;
+  width: 473px;
+}
+
+.ticket-image__info {
+  position: absolute;
+  top: 45px;
+  left: -2px;
+  width: 154px;
+  height: 42px;
+  text-transform: uppercase;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-image__image {
+  width: 473px;
+  height: 369px;
+}
+
+
+/* ticket right side */
+
+.ticket-info {
+  position: relative;
+  padding: 16px 10px 20px 20px;
+}
+
+.ticket-info__title {
+  font-size: 26px;
+  font-weight: 400;
+
+  line-height: 34px;
+}
+
+/* info timetrip */
+.ticket-info__timetrip {
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.ticket-info__timetrip img {
+  width: 16px;
+  height: 16px;
+}
+
+.ticket-info__timetrip .time_description {
+  font-size: 14px;
+  color: #9E9E9E;
+  margin-left: 5px;
+}
+
+/* info describe */
+
+.ticket-info__describe>div {
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.ticket-info__describe div img {
+  width: 16px;
+  height: 16px;
+}
+
+.ticket-info__describe div p {
+  margin-left: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.ticket-info__time_chedule {
+  display: flex;
+}
+
+.ticket-info__time_chedule span {
+  margin-left: 5px;
+  width: 73px;
+  height: 28px;
+  background-color: #C5DCFF;
+  border-radius: 11px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+
+/* ticket price */
+
+.ticket-price {
+  margin-top: 10px;
+}
+
+.ticket-price__price {
+  font-size: 36px;
+}
+
+.ticket-price__on-dock {
+  font-size: 14px;
+}
+
+.ticket-price__on-dock img {
+  width: 12px;
+  height: 12px;
+}
+
+.ticket-price__datails {
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  background-color: #FFD83C;
+  border-radius: 23px;
+  left: 160px;
+  bottom: 30px;
+
+  font-size: 18px;
+  line-height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.ticket-info .time-active {
+  background-color: #6BA6FF;
+}
