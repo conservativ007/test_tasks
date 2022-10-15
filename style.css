@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.selects-container {
+  width: 400px;
+}
+
+.selects-container select+select {
+  margin-top: 20px;
+}
+
+.alert {
+  transition: .5s;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hide {
+  opacity: 0;
+}
+
+.hide-option {
+  display: none;
+}

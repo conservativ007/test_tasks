@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script type="module" defer src="./scripts/main.js"></script>
+  <title>nevatrip</title>
+</head>
+<body>
+  <div class="selects-container">
+  
+    <select class="form-select form-select-sm" name="route" id="route">
+      <option disabled selected>choose a route</option>
+      <option value="из A в B">из A в B</option>
+      <option value="из B в A">из B в A</option>
+      <option value="из A в B и обратно в А">из A в B и обратно в А</option>
+    </select>
+
+    <select disabled="true" class="form-select form-select-sm" name="time-go" id="time-go">
+      <option disabled selected>choose time</option>
+      <option value="18:00(из A в B)">18:00(из A в B)</option>
+      <option value="18:30(из A в B)">18:30(из A в B)</option>
+      <option value="18:45(из A в B)">18:45(из A в B)</option>
+      <option value="19:00(из A в B)">19:00(из A в B)</option>
+      <option value="19:15(из A в B)">19:15(из A в B)</option>
+      <option value="21:00(из A в B)">21:00(из A в B)</option>
+    </select>
+    
+    <select disabled="true" class="form-select form-select-sm" name="time-back" id="time-back">
+      <option disabled selected>choose time back</option>
+      <option value="18:30(из B в A)">18:30(из B в A)</option>
+      <option value="18:45(из B в A)">18:45(из B в A)</option>
+      <option value="19:00(из B в A)">19:00(из B в A)</option>
+      <option value="19:15(из B в A)">19:15(из B в A)</option>
+      <option value="19:35(из B в A)">19:35(из B в A)</option>
+      <option value="21:50(из B в A)">21:50(из B в A)</option>
+      <option value="21:55(из B в A)">21:55(из B в A)</option>
+    </select>
+
+    <div class="input-group mb-3 mt-3">
+      <span class="input-group-text" id="basic-addon1">Количество билетов</span>
+      <input disabled="true" type="number" min="1" class="form-control ticket-quantity">
+    </div>
+    <button disabled="true" type="button" class="btn btn-success">Посчитать</button>
+
+    <div class="alert alert-success mt-3 hide" style="position: absolute;" role="alert"></div>
+    <div class="alert alert-danger mt-3 hide" style="position: absolute;" role="alert"></div>
+</div>
+</body>
+</html>
