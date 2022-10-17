@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+main {
+  width: 1600px;
+  height: 716px;
+  background-image: url("../assets/images/photo-in-main.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .main-info {
+  margin-top: 170px;
+  margin-left: 200px;
+  width: 780px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .main-info .main-info__title {
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 110%;
+}
+main .main-info .main-info__describe {
+  font-weight: 500;
+  line-height: 22.4px;
+}
+main .main-info__buttons {
+  display: flex;
+  font-weight: 500;
+}
+main .main-info__buttons .main-info__buttons-one {
+  width: 362px;
+  height: 62px;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF5900;
+}
+main .main-info__buttons .main-info__buttons-one:hover {
+  background-color: #CA4600;
+}
+main .main-info__buttons .main-info__buttons-two {
+  width: 362px;
+  height: 62px;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  margin-left: 32px;
+}/*# sourceMappingURL=main.css.map */

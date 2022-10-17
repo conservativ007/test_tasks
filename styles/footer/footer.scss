@@ -1,0 +1,89 @@
+@import "../mixins.scss";
+
+footer {
+  width: 1600px;
+  height: 583px;
+  background: #333333;
+  margin-bottom: 50px;
+
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  column-gap: 107px;
+  justify-content: center;
+
+  section {
+    margin-top: 100px;
+    width: 200px;
+    height: 360px;
+  }
+
+  .info {
+
+    display: grid;
+
+    .info-title {
+      background-image: url("../../assets/images/footer/test.png");
+      @include back_image_center;
+      width: 185px;
+      height: 48px;
+    }
+
+    .info-region {
+      display: flex;
+
+      p:first-child {
+        @include caption;
+      }
+
+      p:last-child {
+        @include text_s;
+        margin-left: 10px;
+      }
+    }
+
+    .info-contacts {
+      @include text_s;
+    }
+
+    .info-describe {
+      @include caption;
+    }
+
+    .info-img {
+      display: flex;
+
+      div {
+        @include back_image_center;
+        width: 40px;
+        height: 40px;
+      }
+
+      div:first-child {
+        background-image: url("../../assets/images/footer/vk.png");
+      }
+
+      div:last-child {
+        margin-left: 20px;
+        background-image: url("../../assets/images/footer/telegram.png");
+      }
+    }
+  }
+
+  .business {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .business-title {
+    @include caption;
+  }
+
+  .business-info {
+    @include text_s;
+
+    p {
+      line-height: 23.8px;
+    }
+  }
+}

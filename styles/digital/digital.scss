@@ -1,0 +1,134 @@
+@import "../mixins.scss";
+
+.digital {
+  width: 1600px;
+  height: 1420px;
+
+  @include flex_center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.digital-container1 {
+  width: 1200px;
+  height: 593px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .digital-title span {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+  }
+
+  .digital-title span:first-child {
+    color: orangered;
+  }
+
+  .digital-title span:last-child {
+    color: #212121;
+    margin-left: 10px;
+  }
+
+  .digital-items {
+    height: 487px;
+    display: flex;
+    justify-content: space-between;
+
+    .item {
+      box-sizing: border-box;
+      width: 360px;
+      height: 487px;
+      padding: 0 33px;
+      @include back_image_center;
+      @include flex_around_vertical;
+
+      .item-title {
+        @include headline_3;
+        position: relative;
+      }
+
+      .item-title::after {
+        @include line_between_paragraph;
+        top: 75px;
+      }
+
+      .item-describe {
+        @include text;
+      }
+
+      .item-describe__caption {
+        @include caption;
+        position: relative;
+      }
+
+      .item-describe__caption::before {
+        @include line_between_paragraph;
+        bottom: 80px;
+      }
+
+      .item-button {
+        @include third_button;
+        width: 296px;
+        height: 52px;
+      }
+    }
+
+    .item:first-child {
+      background-image: url("../../assets/images/rectangle_1.png");
+    }
+
+    .item:nth-child(2) {
+      background-image: url("../../assets/images/rectangle_2.png");
+    }
+
+    .item:last-child {
+      background-image: url("../../assets/images/rectangle_3.png");
+    }
+  }
+}
+
+.digital-container2 {
+  width: 1200px;
+  height: 466px;
+
+  @include flex_between_vertical;
+
+  .digital-title {
+    font-weight: 700;
+    font-size: 38px;
+    color: #212121;
+  }
+
+  .digital-items {
+    width: 1200px;
+    height: 360px;
+
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 160px 160px 160px;
+    row-gap: 40px;
+    column-gap: 60px;
+  }
+
+  .item {
+    @include flex_between_vertical;
+    align-items: center;
+  }
+
+  .item-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .item-describe {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333333;
+  }
+
+}

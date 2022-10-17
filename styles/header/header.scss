@@ -1,0 +1,119 @@
+@import "../mixins.scss";
+
+.header {
+  width: 1600px;
+  height: 184px;
+  @include flex_center;
+  flex-direction: column;
+
+
+  .header-title {
+    width: 1200px;
+    height: 104px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-title__logo {
+    width: 185px;
+    height: 48px;
+    position: relative;
+  }
+
+  .header-title__logo-logo {
+    width: 43px;
+    height: 48px;
+    @include back_image_center;
+    background-image: url("../../assets/images/logo-logo.png");
+  }
+
+  .header-title__logo-house {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 131px;
+    height: 24px;
+    @include back_image_center;
+    background-image: url("../../assets/images/logo-house.png");
+  }
+
+  .header-title__logo-describe {
+    position: absolute;
+    right: 3px;
+    top: 33px;
+    width: 129px;
+    height: 9px;
+    @include back_image_center;
+    background-image: url("../../assets/images/logo-describe.png");
+  }
+
+  .header-title__describe {
+    font-size: 14px;
+    color: #212121;
+    opacity: 0.7;
+    line-height: 140%;
+    @include flex_center;
+  }
+
+  .header-title__contacts {
+    width: 410px;
+    height: 52px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-title__contacts-phone {
+      font-weight: 600;
+      color: #212121;
+      opacity: 0.7;
+    }
+
+    .header-title__contacts-button {
+      @include third_button;
+      width: 222px;
+      height: 52px;
+
+      img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  nav {
+    height: 80px;
+    @include flex_center;
+
+    .nav-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p,
+      .dropdown {
+        font-size: 14px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #212121;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    .nav-links p:first-child {
+      color: black;
+    }
+  }
+}

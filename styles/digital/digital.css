@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+.digital {
+  width: 1600px;
+  height: 1420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.digital-container1 {
+  width: 1200px;
+  height: 593px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.digital-container1 .digital-title span {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+}
+.digital-container1 .digital-title span:first-child {
+  color: orangered;
+}
+.digital-container1 .digital-title span:last-child {
+  color: #212121;
+  margin-left: 10px;
+}
+.digital-container1 .digital-items {
+  height: 487px;
+  display: flex;
+  justify-content: space-between;
+}
+.digital-container1 .digital-items .item {
+  box-sizing: border-box;
+  width: 360px;
+  height: 487px;
+  padding: 0 33px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.digital-container1 .digital-items .item .item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: relative;
+}
+.digital-container1 .digital-items .item .item-title::after {
+  position: absolute;
+  left: 0;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.2;
+  top: 75px;
+}
+.digital-container1 .digital-items .item .item-describe {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.digital-container1 .digital-items .item .item-describe__caption {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.5;
+  position: relative;
+}
+.digital-container1 .digital-items .item .item-describe__caption::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.2;
+  bottom: 80px;
+}
+.digital-container1 .digital-items .item .item-button {
+  width: 362px;
+  height: 62px;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF5900;
+  color: #FF5900;
+  -webkit-backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
+  width: 296px;
+  height: 52px;
+}
+.digital-container1 .digital-items .item:first-child {
+  background-image: url("../../assets/images/rectangle_1.png");
+}
+.digital-container1 .digital-items .item:nth-child(2) {
+  background-image: url("../../assets/images/rectangle_2.png");
+}
+.digital-container1 .digital-items .item:last-child {
+  background-image: url("../../assets/images/rectangle_3.png");
+}
+
+.digital-container2 {
+  width: 1200px;
+  height: 466px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.digital-container2 .digital-title {
+  font-weight: 700;
+  font-size: 38px;
+  color: #212121;
+}
+.digital-container2 .digital-items {
+  width: 1200px;
+  height: 360px;
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  grid-template-rows: 160px 160px 160px;
+  row-gap: 40px;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+.digital-container2 .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.digital-container2 .item-img {
+  width: 70px;
+  height: 70px;
+}
+.digital-container2 .item-describe {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+}/*# sourceMappingURL=digital.css.map */

@@ -1,0 +1,45 @@
+@import "./mixins.scss";
+
+main {
+  width: 1600px;
+  height: 716px;
+  background-image: url("../assets/images/photo-in-main.png");
+  color: white;
+  @include back_image_center;
+
+  .main-info {
+    margin-top: 170px;
+    margin-left: 200px;
+    width: 780px;
+    height: 336px;
+
+    @include flex_between_vertical;
+  }
+
+  .main-info .main-info__title {
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 110%;
+
+  }
+
+  .main-info .main-info__describe {
+    font-weight: 500;
+    line-height: 22.4px;
+  }
+
+  .main-info__buttons {
+
+    display: flex;
+    font-weight: 500;
+
+    .main-info__buttons-one {
+      @include first_button;
+    }
+
+    .main-info__buttons-two {
+      @include second_button;
+      margin-left: 32px;
+    }
+  }
+}

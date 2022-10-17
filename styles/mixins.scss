@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+@mixin back_image_center {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+@mixin flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex_between_vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin flex_around_vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@mixin button_body {
+  width: 362px;
+  height: 62px;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+@mixin first_button {
+  @include button_body;
+  @include flex_center;
+
+  background-color: #FF5900;
+
+  &:hover {
+    background-color: #CA4600;
+  }
+}
+
+@mixin second_button {
+  @include button_body;
+  @include flex_center;
+
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+@mixin third_button {
+  @include button_body;
+  @include flex_center;
+
+  border: 1px solid #FF5900;
+  color: #FF5900;
+  backdrop-filter: blur(2.5px);
+}
+
+// typography
+
+@mixin headline_3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@mixin text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+@mixin text_s {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+@mixin caption {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+@mixin line_between_paragraph {
+  position: absolute;
+  left: 0;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  opacity: .2;
+}

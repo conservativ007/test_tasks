@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+.header {
+  width: 1600px;
+  height: 184px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header .header-title {
+  width: 1200px;
+  height: 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-title__logo {
+  width: 185px;
+  height: 48px;
+  position: relative;
+}
+.header .header-title__logo-logo {
+  width: 43px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../assets/images/logo-logo.png");
+}
+.header .header-title__logo-house {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 131px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../assets/images/logo-house.png");
+}
+.header .header-title__logo-describe {
+  position: absolute;
+  right: 3px;
+  top: 33px;
+  width: 129px;
+  height: 9px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../assets/images/logo-describe.png");
+}
+.header .header-title__describe {
+  font-size: 14px;
+  color: #212121;
+  opacity: 0.7;
+  line-height: 140%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header-title__contacts {
+  width: 410px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-title__contacts .header-title__contacts-phone {
+  font-weight: 600;
+  color: #212121;
+  opacity: 0.7;
+}
+.header .header-title__contacts .header-title__contacts-button {
+  width: 362px;
+  height: 62px;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF5900;
+  color: #FF5900;
+  -webkit-backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
+  width: 222px;
+  height: 52px;
+}
+.header .header-title__contacts .header-title__contacts-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.header .header-title__contacts .header-title__contacts-button p {
+  font-size: 16px;
+}
+.header nav {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header nav .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav .nav-links p,
+.header nav .nav-links .dropdown {
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #212121;
+  font-weight: 500;
+  cursor: pointer;
+}
+.header nav .nav-links img {
+  cursor: pointer;
+}
+.header nav .nav-links p:first-child {
+  color: black;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+footer {
+  width: 1600px;
+  height: 583px;
+  background: #333333;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  -moz-column-gap: 107px;
+       column-gap: 107px;
+  justify-content: center;
+}
+footer section {
+  margin-top: 100px;
+  width: 200px;
+  height: 360px;
+}
+footer .info {
+  display: grid;
+}
+footer .info .info-title {
+  background-image: url("../../assets/images/footer/test.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 185px;
+  height: 48px;
+}
+footer .info .info-region {
+  display: flex;
+}
+footer .info .info-region p:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+footer .info .info-region p:last-child {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+footer .info .info-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+footer .info .info-describe {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+footer .info .info-img {
+  display: flex;
+}
+footer .info .info-img div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+footer .info .info-img div:first-child {
+  background-image: url("../../assets/images/footer/vk.png");
+}
+footer .info .info-img div:last-child {
+  margin-left: 20px;
+  background-image: url("../../assets/images/footer/telegram.png");
+}
+footer .business {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .business-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+footer .business-info {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+footer .business-info p {
+  line-height: 23.8px;
+}/*# sourceMappingURL=footer.css.map */
