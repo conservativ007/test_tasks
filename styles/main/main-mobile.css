@@ -1,0 +1,33 @@
+@media (max-width: 1599px) {
+  main {
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+  }
+  main .main-info {
+    width: 400px;
+    height: 245px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  main .main-info .main-info__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+  }
+  main .main-info .main-info__describe {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  main .main-info__buttons {
+    justify-content: space-between;
+  }
+  main .main-info__buttons .main-info__buttons-one,
+main .main-info__buttons .main-info__buttons-two {
+    width: 190px;
+    height: 40px;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0;
+  }
+}/*# sourceMappingURL=main-mobile.css.map */

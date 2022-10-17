@@ -1,0 +1,31 @@
+@media (max-width: 1599px) {
+  .header {
+    width: 400px;
+    height: 420px;
+    padding: 20px 0;
+    justify-content: space-between;
+  }
+  .header .header-title {
+    width: 400px;
+    height: 170px;
+    flex-direction: column;
+  }
+  .header .header-title__contacts {
+    height: 80px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .header .header-title__contacts .header-title__contacts-button {
+    width: 190px;
+    height: 40px;
+  }
+  .header nav {
+    height: 240px;
+  }
+  .header nav .nav-links {
+    flex-direction: column;
+  }
+  .header nav .nav-links p {
+    line-height: 180%;
+  }
+}/*# sourceMappingURL=header-mobile.css.map */

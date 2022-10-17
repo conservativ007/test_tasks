@@ -1,0 +1,38 @@
+@media (max-width: 1599px) {
+  .dropdown {
+    position: relative;
+    width: 230px;
+  }
+
+  .dropdown::before {
+    right: 0;
+  }
+
+  .dropdown .option {
+    width: 230px;
+    position: absolute;
+    top: 39px;
+    padding-left: 15px;
+    overflow: hidden;
+    display: none;
+
+    background-color: gray;
+    z-index: 1;
+  }
+
+  .dropdown .option div {
+    height: 49px;
+    color: white;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    font-size: 11px;
+  }
+
+  .dropdown .option div::before {
+    background-color: rgba(51, 51, 51, 0.1);
+  }
+}
