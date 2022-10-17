@@ -71,23 +71,55 @@ footer .info .info-img div:last-child {
   margin-left: 20px;
   background-image: url("../../assets/images/footer/telegram.png");
 }
-footer .business {
+footer .business,
+footer .develop,
+footer .company {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
-footer .business-title {
+footer .business-title,
+footer .develop-title,
+footer .company-title {
   font-weight: 500;
   font-size: 14px;
   line-height: 140%;
   color: #FFFFFF;
   opacity: 0.5;
 }
-footer .business-info {
+footer .business-info,
+footer .develop-info,
+footer .company-info {
   font-weight: 500;
   font-size: 14px;
   color: #FFFFFF;
+  margin-top: 24px;
 }
-footer .business-info p {
+footer .business-info p,
+footer .develop-info p,
+footer .company-info p {
   line-height: 23.8px;
+}
+footer .about {
+  margin-top: 70px;
+  width: 1200px;
+  height: 14px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-size: 12px;
+  position: relative;
+}
+footer .about::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.2;
+  top: -20px;
 }/*# sourceMappingURL=footer.css.map */

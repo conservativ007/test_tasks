@@ -69,21 +69,43 @@ footer {
     }
   }
 
-  .business {
+  .business,
+  .develop,
+  .company {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
 
-  .business-title {
+  .business-title,
+  .develop-title,
+  .company-title {
     @include caption;
   }
 
-  .business-info {
+  .business-info,
+  .develop-info,
+  .company-info {
     @include text_s;
+    margin-top: 24px;
 
     p {
       line-height: 23.8px;
     }
+  }
+
+  .about {
+    margin-top: 70px;
+    width: 1200px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    @include caption;
+    font-size: 12px;
+    position: relative;
+  }
+
+  .about::before {
+    @include line_between_paragraph;
+    top: -20px;
   }
 }
