@@ -1,9 +1,9 @@
-@import "./mixins.scss";
+@import "../mixins/mixins.scss";
 
 main {
   width: 1600px;
   height: 716px;
-  background-image: url("../assets/images/photo-in-main.png");
+  background-image: url("../../assets/images/photo-in-main.png");
   color: white;
   @include back_image_center;
 

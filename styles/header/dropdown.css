@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
 .dropdown {
   position: relative;
   width: 245px;
@@ -38,7 +39,7 @@
   width: 352px;
   position: absolute;
   top: 59px;
-  padding-left: 15px;
+  padding: 0 15px;
   overflow: hidden;
   display: none;
   background-color: white;
@@ -62,6 +63,16 @@
   display: flex;
   align-items: center;
   position: relative;
+}
+
+.dropdown .option div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown .option div img {
+  width: 36px;
+  height: 16px;
 }
 
 .dropdown .option div::before {

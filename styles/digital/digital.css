@@ -64,7 +64,8 @@
   opacity: 0.2;
   top: 75px;
 }
-.digital-container1 .digital-items .item .item-describe {
+.digital-container1 .digital-items .item .item-describe,
+.digital-container1 .digital-items .item .item-describe__footer {
   font-weight: 500;
   font-size: 16px;
   color: #FFFFFF;
@@ -88,6 +89,7 @@
   bottom: 80px;
 }
 .digital-container1 .digital-items .item .item-button {
+  box-sizing: border-box;
   width: 362px;
   height: 62px;
   border-radius: 100px;

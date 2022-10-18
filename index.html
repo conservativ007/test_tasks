@@ -4,18 +4,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/main.css">
-  <link rel="stylesheet" href="./styles/main/main-mobile.css">
-  <link rel="stylesheet" href="./styles/main/main-style.css">
 
-  <link rel="stylesheet" href="./styles/header/dropdown.css">
-  <link rel="stylesheet" href="./styles/header/dropdown-mobile.css">
-  <link rel="stylesheet" href="./styles/digital/digital.css">
-  <link rel="stylesheet" href="./styles/footer/footer.css">
+  <link rel="stylesheet" href="./styles/style.css">
 
   <link rel="stylesheet" href="./styles/header/header.css">
   <link rel="stylesheet" href="./styles/header/header-mobile.css">
- 
+
+  <link rel="stylesheet" href="./styles/main/main.css">
+  <link rel="stylesheet" href="./styles/main/main-mobile.css">
+  
+  <link rel="stylesheet" href="./styles/header/dropdown.css">
+  <link rel="stylesheet" href="./styles/header/dropdown-mobile.css">
+  
+  <link rel="stylesheet" href="./styles/digital/digital.css">
+  <link rel="stylesheet" href="./styles/digital/digital-mobile.css">
+
+  <link rel="stylesheet" href="./styles/footer/footer.css">
+  <link rel="stylesheet" href="./styles/footer/footer-mobile.css">
  
   <script defer src="./scripts/dropdown.js"></script>
   <title>freelance</title>
@@ -26,13 +31,9 @@
     
     <div class="header-title">
 
-      <div class="header-title__logo">
-        <div class="header-title__logo-logo"></div>
-        <div class="header-title__logo-house"></div>
-        <div class="header-title__logo-describe"></div>
-      </div>
+      <div class="header-title__logo"></div>
 
-      <div class="header-title__describe">Увеличиваем продажи в Вашем бизнесе!</div>
+      <p class="header-title__describe">Увеличиваем продажи в Вашем бизнесе!</p>
 
       <div class="header-title__contacts">
         <p class="header-title__contacts-phone">+7 (4872) 79-29-10</p>
@@ -50,7 +51,10 @@
           <div class="dropdown">
             <input disabled type="text" class="text-box" value="Увеличение продаж">
             <div class="option">
-              <div>Пункт 1</div>
+              <div>
+                <p>Пункт 1</p>
+                <img src="./assets/images/header/hit.png" alt="hit">
+              </div>
               <div>SEO продвижение сайтов в Яндекс</div>
               <div>Проведение бизнеса в социальных сетях</div>
               <div>Пункт 4</div>
@@ -98,7 +102,7 @@
             <p>Контекстная реклама</p>  
           </div>
           <p class="item-describe__caption">Ищете сплит каналов для стабильного лидгена? Нет ничего надежнее классики!</p>
-          <div class="item-describe"> 
+          <div class="item-describe__footer"> 
             <p>Специальная скидка до 40%</p>
             <p>на каждую услугу в пакете</p>
           </div>
@@ -112,7 +116,7 @@
             <p>Управление репутацией</p>
           </div>
           <p class="item-describe__caption">Добавьте к классическому продвижению работу с профильными площадками и отзовиками.</p>
-          <div class="item-describe"> 
+          <div class="item-describe__footer"> 
             <p>Специальная скидка до 40%</p>
             <p>на каждую услугу в пакете</p>
           </div>
@@ -129,7 +133,7 @@
             <p>Таргет + Маркетплейсы</p>
           </div>
           <p class="item-describe__caption">Основные каналы лидгена попали под блокировку? У нас уже есть работающее решение.</p>
-          <div class="item-describe"> 
+          <div class="item-describe__footer"> 
             <p>Специальная скидка до 20%</p>
             <p>на каждую услугу в пакете</p>
           </div>

@@ -1,8 +1,8 @@
 @media (max-width: 1599px) {
   .header {
     width: 400px;
-    height: 420px;
-    padding: 20px 0;
+    height: 430px;
+    margin: 20px 0;
     justify-content: space-between;
   }
   .header .header-title {

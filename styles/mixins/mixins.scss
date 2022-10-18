@@ -26,6 +26,7 @@
 }
 
 @mixin button_body {
+  box-sizing: border-box;
   width: 362px;
   height: 62px;
   border-radius: 100px;

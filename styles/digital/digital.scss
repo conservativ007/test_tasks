@@ -1,4 +1,4 @@
-@import "../mixins.scss";
+@import "../mixins/mixins.scss";
 
 .digital {
   width: 1600px;
@@ -55,7 +55,8 @@
         top: 75px;
       }
 
-      .item-describe {
+      .item-describe,
+      .item-describe__footer {
         @include text;
       }
 

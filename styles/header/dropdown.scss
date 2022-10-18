@@ -1,3 +1,5 @@
+@import "../mixins/mixins.scss";
+
 .dropdown {
   position: relative;
   width: 245px;
@@ -39,7 +41,7 @@
   width: 352px;
   position: absolute;
   top: 59px;
-  padding-left: 15px;
+  padding: 0 15px;
   overflow: hidden;
   display: none;
 
@@ -67,6 +69,16 @@
   position: relative;
 }
 
+.dropdown .option div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown .option div img {
+  width: 36px;
+  height: 16px;
+}
+
 .dropdown .option div::before {
   position: absolute;
   top: 47px;
@@ -76,14 +88,3 @@
   width: 367px;
   background-color: rgba(51, 51, 51, 0.1);
 }
-
-// @media (max-width: 399px) {
-//   .dropdown {
-//     width: 100px;
-//   }
-
-//   .dropdown input {
-//     font-size: 12px;
-//     padding: 10px 5px;
-//   }
-// }

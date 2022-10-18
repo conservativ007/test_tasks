@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@media (max-width: 1599px) {
+  .digital {
+    margin-top: 50px;
+    width: 400px;
+    height: 2300px;
+    justify-content: space-between;
+  }
+  .digital-container1 {
+    width: 400px;
+    height: 1600px;
+  }
+  .digital-container1 .digital-title {
+    text-align: center;
+  }
+  .digital-container1 .digital-title span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .digital-container1 .digital-items {
+    margin-top: 20px;
+    width: 400px;
+    height: 1600px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .digital-container1 .digital-items .item {
+    padding: 0 20px;
+  }
+  .digital-container1 .digital-items .item .item-title {
+    font-size: 13px;
+  }
+  .digital-container1 .digital-items .item .item-title::after {
+    width: 0;
+  }
+  .digital-container1 .digital-items .item .item-describe {
+    position: relative;
+  }
+  .digital-container1 .digital-items .item .item-describe::before {
+    position: absolute;
+    left: 0;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.2;
+    top: -28px;
+  }
+  .digital-container1 .digital-items .item .item-describe::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.2;
+    top: 67px;
+  }
+  .digital-container1 .digital-items .item .item-describe__caption::before {
+    width: 0;
+  }
+  .digital-container1 .digital-items .item .item-button {
+    margin-left: 20px;
+    width: 280px;
+  }
+  .digital-container2 {
+    width: 400px;
+    height: 650px;
+    justify-content: space-between;
+  }
+  .digital-container2 .digital-title {
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .digital-container2 .digital-items {
+    width: 400px;
+    height: 580px;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 180px 180px;
+    gap: 20px 20px;
+  }
+  .digital-container2 .digital-items .item {
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=digital-mobile.css.map */

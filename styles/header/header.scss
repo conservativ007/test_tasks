@@ -1,4 +1,4 @@
-@import "../mixins.scss";
+@import "../mixins/mixins.scss";
 
 .header {
   width: 1600px;
@@ -20,13 +20,13 @@
     width: 185px;
     height: 48px;
     position: relative;
+    @include back_image_center;
+    background-image: url("../../assets/images/header/logo.png");
   }
 
   .header-title__logo-logo {
     width: 43px;
     height: 48px;
-    @include back_image_center;
-    background-image: url("../../assets/images/logo-logo.png");
   }
 
   .header-title__logo-house {
@@ -36,7 +36,6 @@
     width: 131px;
     height: 24px;
     @include back_image_center;
-    background-image: url("../../assets/images/logo-house.png");
   }
 
   .header-title__logo-describe {
@@ -46,7 +45,6 @@
     width: 129px;
     height: 9px;
     @include back_image_center;
-    background-image: url("../../assets/images/logo-describe.png");
   }
 
   .header-title__describe {

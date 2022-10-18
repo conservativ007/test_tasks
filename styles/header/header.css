@@ -18,14 +18,14 @@
   width: 185px;
   height: 48px;
   position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../assets/images/header/logo.png");
 }
 .header .header-title__logo-logo {
   width: 43px;
   height: 48px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url("../../assets/images/logo-logo.png");
 }
 .header .header-title__logo-house {
   position: absolute;
@@ -36,7 +36,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../../assets/images/logo-house.png");
 }
 .header .header-title__logo-describe {
   position: absolute;
@@ -47,7 +46,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../../assets/images/logo-describe.png");
 }
 .header .header-title__describe {
   font-size: 14px;
@@ -71,6 +69,7 @@
   opacity: 0.7;
 }
 .header .header-title__contacts .header-title__contacts-button {
+  box-sizing: border-box;
   width: 362px;
   height: 62px;
   border-radius: 100px;

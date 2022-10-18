@@ -1,10 +1,9 @@
-@import "../mixins.scss";
+@import "../mixins/mixins.scss";
 
 footer {
   width: 1600px;
   height: 583px;
   background: #333333;
-  margin-bottom: 50px;
 
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;

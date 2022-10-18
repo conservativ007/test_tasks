@@ -15,3 +15,9 @@ body {
 .container {
   width: 1200px;
 }
+
+@media (max-width: 1599px) {
+  .container {
+    width: 400px;
+  }
+}

@@ -2,11 +2,12 @@
   main {
     width: 400px;
     height: 250px;
-    padding: 10px;
+    padding: 5px 10px 10px 10px;
+    box-sizing: border-box;
   }
   main .main-info {
-    width: 400px;
-    height: 245px;
+    width: 380px;
+    height: 235px;
     margin-top: 0;
     margin-left: 0;
   }
@@ -16,7 +17,7 @@
     line-height: 110%;
   }
   main .main-info .main-info__describe {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
   }
   main .main-info__buttons {
@@ -24,7 +25,7 @@
   }
   main .main-info__buttons .main-info__buttons-one,
 main .main-info__buttons .main-info__buttons-two {
-    width: 190px;
+    width: 180px;
     height: 40px;
     font-size: 11px;
     font-weight: 400;
