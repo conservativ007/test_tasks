@@ -1,15 +1,15 @@
 @import "https://fonts.fontstorage.com/import/golostext.css";
-header {
-  height: 82px;
+header .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 82px;
 }
-header .header-about {
+header .header-top .header-about {
   display: flex;
   align-items: center;
 }
-header .header-about div p {
+header .header-top .header-about div p {
   font-family: "Golos";
   font-style: normal;
   font-feature-settings: "pnum" on, "lnum" on;
@@ -19,7 +19,7 @@ header .header-about div p {
   line-height: 158%;
   margin-left: 24px;
 }
-header .header-feedback {
+header .header-top .header-feedback {
   font-family: "Golos";
   font-style: normal;
   font-feature-settings: "pnum" on, "lnum" on;
@@ -33,9 +33,21 @@ header .header-feedback {
   justify-content: space-between;
   align-items: center;
 }
-header .header-feedback .header-feedback__email {
+header .header-top .header-feedback .header-feedback__email {
   display: flex;
 }
-header .header-feedback .header-feedback__email p {
+header .header-top .header-feedback .header-feedback__email p {
   margin-left: 6px;
+}
+header .header-bottom nav {
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-bottom nav div {
+  display: flex;
+}
+header .header-bottom nav div p {
+  margin-right: 3px;
 }/*# sourceMappingURL=header.css.map */

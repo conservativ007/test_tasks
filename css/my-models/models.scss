@@ -1,0 +1,65 @@
+@import "../mixins/desktop.scss";
+@import "../mixins/colors.scss";
+
+.models {
+
+  position: relative;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+
+  .models-describe {
+    width: 486px;
+    height: 317px;
+    margin-top: 141.5px;
+    margin-left: 120px;
+
+    .models-describe__images {
+      width: 208px;
+      height: 40px;
+      background-image: url("../../../img/models.png");
+    }
+
+    .models-describe__title {
+      @include h-33;
+      @include main-dark-blue;
+      margin-top: 16px;
+    }
+
+    .models-describe__describe {
+      @include t-18;
+      @include black-70;
+      margin-top: 16px;
+    }
+
+    .models-describe__button {
+      @include t-15;
+      @include main-dark-blue;
+      margin-top: 56px;
+      width: 200px;
+      height: 46px;
+      text-align: center;
+      padding: 12px;
+      border: 1px solid #003154;
+      border-radius: 2px;
+
+      cursor: pointer;
+    }
+  }
+
+  .models-image {
+    position: absolute;
+    width: 588px;
+    height: 440px;
+    top: 80px;
+    left: 625px;
+    filter: drop-shadow(4px 8px 24px rgba(0, 0, 0, 0.2)) drop-shadow(16px 28px 64px rgba(0, 0, 0, 0.16));
+  }
+
+  .models-background {
+    width: 426px;
+    margin-right: -120px;
+    @include second-blue;
+
+  }
+}

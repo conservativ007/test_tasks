@@ -1,0 +1,72 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+.models {
+  position: relative;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.models .models-describe {
+  width: 486px;
+  height: 317px;
+  margin-top: 141.5px;
+  margin-left: 120px;
+}
+.models .models-describe .models-describe__images {
+  width: 208px;
+  height: 40px;
+  background-image: url("../../../img/models.png");
+}
+.models .models-describe .models-describe__title {
+  font-family: "Golos";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 116%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #003154;
+  margin-top: 16px;
+}
+.models .models-describe .models-describe__describe {
+  font-family: "Golos";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 162%;
+  color: #404040;
+  margin-top: 16px;
+}
+.models .models-describe .models-describe__button {
+  font-family: "Golos";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: #003154;
+  margin-top: 56px;
+  width: 200px;
+  height: 46px;
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #003154;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.models .models-image {
+  position: absolute;
+  width: 588px;
+  height: 440px;
+  top: 80px;
+  left: 625px;
+  filter: drop-shadow(4px 8px 24px rgba(0, 0, 0, 0.2)) drop-shadow(16px 28px 64px rgba(0, 0, 0, 0.16));
+}
+.models .models-background {
+  width: 426px;
+  margin-right: -120px;
+  background-color: #60C0C3;
+}/*# sourceMappingURL=models.css.map */

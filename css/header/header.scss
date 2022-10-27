@@ -1,12 +1,15 @@
 @import "../mixins/desktop.scss";
 
 header {
-  height: 82px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
-  .header-about {
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+  }
+
+  .header-top .header-about {
     display: flex;
     align-items: center;
 
@@ -16,7 +19,7 @@ header {
     }
   }
 
-  .header-feedback {
+  .header-top .header-feedback {
     @include t-14;
     @include main-dark-blue;
     width: 242px;
@@ -30,6 +33,24 @@ header {
 
     .header-feedback__email p {
       margin-left: 6px;
+    }
+  }
+
+  .header-bottom {
+
+    nav {
+      height: 54px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      div {
+        display: flex;
+      }
+
+      div p {
+        margin-right: 3px;
+      }
     }
   }
 
