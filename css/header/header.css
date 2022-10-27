@@ -1,26 +1,29 @@
 @import "https://fonts.fontstorage.com/import/golostext.css";
+@import "https://fonts.fontstorage.com/import/alegreyasans.css";
+@import "../mixins/colors.css";
 header .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 82px;
 }
-header .header-top .header-about {
-  display: flex;
-  align-items: center;
-}
-header .header-top .header-about div p {
-  font-family: "Golos";
+header .header-top .header-about__describe p {
+  font-family: "Golos Text";
   font-style: normal;
   font-feature-settings: "pnum" on, "lnum" on;
   color: black;
   font-weight: 400;
   font-size: 11px;
   line-height: 158%;
+  color: #8F9090;
   margin-left: 24px;
 }
+header .header-top .header-about {
+  display: flex;
+  align-items: center;
+}
 header .header-top .header-feedback {
-  font-family: "Golos";
+  font-family: "Golos Text";
   font-style: normal;
   font-feature-settings: "pnum" on, "lnum" on;
   color: black;
@@ -44,6 +47,14 @@ header .header-bottom nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: #404040;
 }
 header .header-bottom nav div {
   display: flex;

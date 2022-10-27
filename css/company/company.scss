@@ -1,0 +1,116 @@
+@import "../mixins/desktop.scss";
+@import "../mixins/colors.scss";
+
+.company {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 437px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #003154;
+
+  .company-about {
+    @include t-23;
+    width: 788px;
+    color: white;
+  }
+
+  .company-describe {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+    // describe first item start
+
+    .company-describe__item.first {
+      position: relative;
+      width: 198px;
+      height: 86px;
+
+      .company-describe__item-image {
+        position: absolute;
+        left: -47px;
+        bottom: 6px;
+        z-index: 0;
+      }
+
+      .company-describe__item-image.heart {
+        position: absolute;
+        left: -40px;
+        bottom: 17px;
+        z-index: 0;
+      }
+
+      .company-describe__item-title {
+        @include big-text;
+        position: absolute;
+        top: 0;
+      }
+
+      .company-describe__item-title span {
+        font-size: 24px;
+      }
+
+      .company-describe__item-describe {
+        @include t-15;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+      }
+    }
+
+    // describe first item finish
+
+    .company-describe__item {
+      position: relative;
+      width: 200px;
+      height: 86px;
+
+      .company-describe__item-image {
+        position: absolute;
+        left: -47px;
+        bottom: 6px;
+        z-index: 0;
+      }
+
+      .company-describe__item-image {
+        position: absolute;
+        left: -36px;
+        bottom: 17px;
+        z-index: 0;
+      }
+
+      .company-describe__item-title {
+        @include big-text;
+        position: absolute;
+        top: 0;
+      }
+
+      .company-describe__item-title span {
+        font-size: 24px;
+      }
+
+      .company-describe__item-describe {
+        @include t-15;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 5px;
+        white-space: nowrap;
+      }
+    }
+
+
+
+
+
+
+  }
+}

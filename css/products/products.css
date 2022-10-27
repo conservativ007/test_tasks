@@ -1,11 +1,12 @@
 @import "https://fonts.fontstorage.com/import/golostext.css";
+@import "https://fonts.fontstorage.com/import/alegreyasans.css";
 .products {
   display: flex;
   justify-content: space-between;
   height: 376px;
 }
 .products .products-describe__title {
-  font-family: "Golos";
+  font-family: "Golos Text";
   font-style: normal;
   font-feature-settings: "pnum" on, "lnum" on;
   color: black;
@@ -16,6 +17,13 @@
   margin-top: 80px;
 }
 .products .products-describe__catalog {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
   display: flex;
   margin-top: 24px;
 }
@@ -26,7 +34,7 @@
   justify-content: space-between;
 }
 .products .products-solutions .products-solutions__item {
-  font-family: "Golos";
+  font-family: "Golos Text";
   font-style: normal;
   font-feature-settings: "pnum" on, "lnum" on;
   color: black;

@@ -1,8 +1,10 @@
 @import "https://fonts.fontstorage.com/import/golostext.css";
+@import "https://fonts.fontstorage.com/import/alegreyasans.css";
+
 @import "./colors.scss";
 
 @mixin font-main {
-  font-family: 'Golos';
+  font-family: 'Golos Text';
   font-style: normal;
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
@@ -37,6 +39,15 @@
 }
 
 @mixin h-23 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 130%;
+}
+
+@mixin t-23 {
   @include font-main;
   @include color-black;
 
@@ -138,11 +149,25 @@
   text-transform: uppercase;
 }
 
-@mixin d-11 {
+@mixin t-11 {
   @include font-main;
   @include color-black;
 
   font-weight: 400;
   font-size: 11px;
   line-height: 158%;
+}
+
+
+// -----------------
+
+@mixin big-text {
+  @include font-main;
+
+  // font-family: 'Alegreya Sans';
+  // font-family: 'sans-serif';
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 110%;
 }
