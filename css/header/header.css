@@ -1,0 +1,41 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+header {
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-about {
+  display: flex;
+  align-items: center;
+}
+header .header-about div p {
+  font-family: "Golos";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 158%;
+  margin-left: 24px;
+}
+header .header-feedback {
+  font-family: "Golos";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+  color: #003154;
+  width: 242px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-feedback .header-feedback__email {
+  display: flex;
+}
+header .header-feedback .header-feedback__email p {
+  margin-left: 6px;
+}/*# sourceMappingURL=header.css.map */

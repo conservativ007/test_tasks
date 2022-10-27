@@ -1,0 +1,148 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+@import "./colors.scss";
+
+@mixin font-main {
+  font-family: 'Golos';
+  font-style: normal;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@mixin h-33 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 116%;
+
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@mixin h-29 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 116%;
+}
+
+@mixin h-24 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+}
+
+@mixin h-23 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 130%;
+}
+
+@mixin h-21 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+}
+
+@mixin h-18 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 152%;
+}
+
+@mixin t-18 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 162%;
+}
+
+@mixin t-17 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 158%;
+}
+
+@mixin h-15 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 148%;
+}
+
+@mixin t-15 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+}
+
+@mixin t-15L {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 174%;
+}
+
+@mixin h-14 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 158%;
+}
+
+@mixin t-14 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+}
+
+@mixin h-13 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140%;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@mixin d-11 {
+  @include font-main;
+  @include color-black;
+
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 158%;
+}

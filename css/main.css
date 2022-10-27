@@ -1,0 +1,14 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Golos Text';
+}
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  padding: 0 120px;
+}

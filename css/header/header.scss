@@ -1,0 +1,36 @@
+@import "../mixins/desktop.scss";
+
+header {
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-about {
+    display: flex;
+    align-items: center;
+
+    div p {
+      @include d-11;
+      margin-left: 24px;
+    }
+  }
+
+  .header-feedback {
+    @include t-14;
+    @include main-dark-blue;
+    width: 242px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-feedback__email {
+      display: flex;
+    }
+
+    .header-feedback__email p {
+      margin-left: 6px;
+    }
+  }
+
+}
