@@ -1,0 +1,44 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+.products {
+  display: flex;
+  justify-content: space-between;
+  height: 376px;
+}
+.products .products-describe__title {
+  font-family: "Golos";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 116%;
+  color: #003154;
+  margin-top: 80px;
+}
+.products .products-describe__catalog {
+  display: flex;
+  margin-top: 24px;
+}
+.products .products-solutions {
+  margin-top: 80px;
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+}
+.products .products-solutions .products-solutions__item {
+  font-family: "Golos";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 158%;
+  width: 200px;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.products .products-solutions .products-solutions__item:last-child {
+  height: 171px;
+}/*# sourceMappingURL=products.css.map */

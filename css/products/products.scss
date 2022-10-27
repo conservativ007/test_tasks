@@ -1,0 +1,40 @@
+@import "../mixins/desktop.scss";
+@import "../mixins/colors.scss";
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  height: 376px;
+
+  .products-describe__title {
+    @include h-29;
+    @include main-dark-blue;
+    margin-top: 80px;
+  }
+
+  .products-describe__catalog {
+    display: flex;
+    margin-top: 24px;
+  }
+
+  .products-solutions {
+    margin-top: 80px;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+
+    .products-solutions__item {
+      @include t-17;
+      width: 200px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+
+    .products-solutions__item:last-child {
+      height: 171px;
+    }
+  }
+}
