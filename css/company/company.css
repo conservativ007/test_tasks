@@ -1,9 +1,8 @@
 @import "https://fonts.fontstorage.com/import/golostext.css";
 @import "https://fonts.fontstorage.com/import/alegreyasans.css";
 .company {
-  position: absolute;
-  left: 0;
-  right: 0;
+  margin: 0 auto;
+  width: 1440px;
   height: 437px;
   display: flex;
   flex-direction: column;

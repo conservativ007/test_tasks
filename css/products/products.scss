@@ -2,9 +2,12 @@
 @import "../mixins/colors.scss";
 
 .products {
-  display: flex;
-  justify-content: space-between;
-  height: 376px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    height: 376px;
+  }
 
   .products-describe__title {
     @include h-29;

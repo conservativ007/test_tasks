@@ -2,9 +2,12 @@
 @import "https://fonts.fontstorage.com/import/alegreyasans.css";
 .models {
   position: relative;
+  margin: 0 auto;
+  width: 1440px;
   height: 600px;
   display: flex;
   justify-content: space-between;
+  background-color: #F7F7F8;
 }
 .models .models-describe {
   width: 486px;
@@ -63,11 +66,10 @@
   width: 588px;
   height: 440px;
   top: 80px;
-  left: 625px;
+  left: 740px;
   filter: drop-shadow(4px 8px 24px rgba(0, 0, 0, 0.2)) drop-shadow(16px 28px 64px rgba(0, 0, 0, 0.16));
 }
 .models .models-background {
   width: 426px;
-  margin-right: -120px;
   background-color: #60C0C3;
 }/*# sourceMappingURL=models.css.map */

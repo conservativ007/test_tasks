@@ -1,6 +1,6 @@
 @import "https://fonts.fontstorage.com/import/golostext.css";
 @import "https://fonts.fontstorage.com/import/alegreyasans.css";
-.products {
+.products .container {
   display: flex;
   justify-content: space-between;
   height: 376px;

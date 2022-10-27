@@ -1,0 +1,67 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+@import "https://fonts.fontstorage.com/import/alegreyasans.css";
+.standarts {
+  margin: 0 auto;
+  width: 1440px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F6FB;
+}
+.standarts .standarts-image {
+  width: 720px;
+  height: 450px;
+}
+.standarts .standarts-describe {
+  margin-right: 222px;
+  width: 418px;
+  height: 188px;
+}
+.standarts .standarts-describe .standarts-describe__about {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888888;
+}
+.standarts .standarts-describe .standarts-describe__title {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 116%;
+  color: #174463;
+}
+.standarts .standarts-describe .standarts-describe__describe {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: #404040;
+}
+.standarts .standarts-describe .standarts-describe__more {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: #1E1E1E;
+  margin-top: 32px;
+  display: flex;
+}
+.standarts .standarts-describe .standarts-describe__more img {
+  margin-left: 4px;
+}/*# sourceMappingURL=standarts.css.map */

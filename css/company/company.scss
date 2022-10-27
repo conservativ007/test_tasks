@@ -2,9 +2,11 @@
 @import "../mixins/colors.scss";
 
 .company {
-  position: absolute;
-  left: 0;
-  right: 0;
+  // position: relative;
+  // left: 0;
+  // right: 0;
+  margin: 0 auto;
+  width: 1440px;
   height: 437px;
 
   display: flex;

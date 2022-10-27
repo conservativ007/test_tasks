@@ -1,0 +1,52 @@
+@import "../mixins/desktop.scss";
+@import "../mixins/colors.scss";
+
+.standarts {
+  margin: 0 auto;
+  width: 1440px;
+  height: 450px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: $light-blue;
+
+  .standarts-image {
+    width: 720px;
+    height: 450px;
+  }
+
+  .standarts-describe {
+    margin-right: 222px;
+    width: 418px;
+    height: 188px;
+
+    .standarts-describe__about {
+      @include h-13;
+      color: $black60;
+    }
+
+    .standarts-describe__title {
+      @include h-29;
+      color: $main-dark-blue;
+    }
+
+    .standarts-describe__describe {
+      @include t-15;
+      color: $black70;
+    }
+
+    .standarts-describe__more {
+      @include t-15;
+      color: $black80;
+      margin-top: 32px;
+
+      display: flex;
+
+      img {
+        margin-left: 4px;
+      }
+    }
+  }
+}
