@@ -1,0 +1,45 @@
+@import "../mixins/mixins.scss";
+@import "../mixins/values.scss";
+
+header {
+  height: 200px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #dcdcdc;
+
+  .logo {
+
+    display: flex;
+    align-items: center;
+
+    .logo-describe {
+      margin-left: 20px;
+    }
+
+    .logo-describe__title {
+      // @include base_lineheight;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 26px;
+      color: #777777;
+    }
+
+    .logo-describe__describe {
+      color: $header_color_text_paragraph;
+    }
+  }
+
+  .sale {
+    color: $header_color_text_paragraph;
+  }
+
+  .contacts {
+    // @include base_lineheight;
+    font-size: 22px;
+    font-weight: 600;
+    color: $header_color_text_contacts;
+  }
+}

@@ -1,0 +1,31 @@
+header {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dcdcdc;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo .logo-describe {
+  margin-left: 20px;
+}
+header .logo .logo-describe__title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 26px;
+  color: #777777;
+}
+header .logo .logo-describe__describe {
+  color: #9f9f9f;
+}
+header .sale {
+  color: #9f9f9f;
+}
+header .contacts {
+  font-size: 22px;
+  font-weight: 600;
+  color: #848484;
+}/*# sourceMappingURL=header.css.map */
