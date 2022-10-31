@@ -1,0 +1,93 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+@import "https://fonts.fontstorage.com/import/alegreyasans.css";
+.news {
+  height: 693px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.news .news-title {
+  display: flex;
+  justify-content: space-between;
+}
+.news .news-title .news-title__title {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 116%;
+  color: #174463;
+}
+.news .news-title .news-title__describe {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: #1E1E1E;
+}
+.news .news-content {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.news .news-content .content-container {
+  width: 384px;
+}
+.news .news-content .content-container img {
+  width: 100%;
+  height: 288px;
+}
+.news .news-content .content-container__info {
+  margin-top: 22px;
+  display: flex;
+}
+.news .news-content .content-container__info p:first-child {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 158%;
+  color: #404040;
+}
+.news .news-content .content-container__info p:last-child {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 158%;
+  color: #8F9090;
+}
+.news .news-content .content-container__info-divider {
+  color: #8F9090;
+  margin: 0 5px;
+}
+.news .news-content .content-container__title {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 152%;
+  color: #000103;
+  margin-top: 16px;
+}
+.news .news-content .content-container__describe {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+  margin-top: 8px;
+}/*# sourceMappingURL=news.css.map */

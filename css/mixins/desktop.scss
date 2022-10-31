@@ -11,7 +11,7 @@
 
 @mixin h-33 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 600;
   font-size: 33px;
@@ -22,8 +22,8 @@
 
 @mixin h-29 {
   @include font-main;
-  @include color-black;
-
+  // color: $black;
+  color: $black;
   font-weight: 600;
   font-size: 33px;
   line-height: 116%;
@@ -31,7 +31,7 @@
 
 @mixin h-24 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 600;
   font-size: 24px;
@@ -40,7 +40,7 @@
 
 @mixin h-23 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 400;
   font-size: 23px;
@@ -49,7 +49,7 @@
 
 @mixin t-23 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 400;
   font-size: 23px;
@@ -58,7 +58,7 @@
 
 @mixin h-21 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 400;
   font-size: 21px;
@@ -67,7 +67,7 @@
 
 @mixin h-18 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 600;
   font-size: 18px;
@@ -76,7 +76,7 @@
 
 @mixin t-18 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 400;
   font-size: 18px;
@@ -85,7 +85,7 @@
 
 @mixin t-17 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 400;
   font-size: 17px;
@@ -94,7 +94,7 @@
 
 @mixin h-15 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 600;
   font-size: 15px;
@@ -103,8 +103,8 @@
 
 @mixin t-15 {
   @include font-main;
-  @include color-black;
-
+  // color: $black;
+  color: $black;
   font-weight: 400;
   font-size: 15px;
   line-height: 148%;
@@ -112,7 +112,7 @@
 
 @mixin t-15L {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 400;
   font-size: 15px;
@@ -121,7 +121,7 @@
 
 @mixin h-14 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 600;
   font-size: 14px;
@@ -130,7 +130,7 @@
 
 @mixin t-14 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 400;
   font-size: 14px;
@@ -139,7 +139,7 @@
 
 @mixin h-13 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 600;
   font-size: 13px;
@@ -149,9 +149,18 @@
   text-transform: uppercase;
 }
 
+@mixin t-12 {
+  @include font-main;
+  color: $black;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 158%;
+}
+
 @mixin t-11 {
   @include font-main;
-  @include color-black;
+  color: $black;
 
   font-weight: 400;
   font-size: 11px;
