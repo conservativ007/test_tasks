@@ -1,0 +1,28 @@
+@import "../mixins/mixins.scss";
+@import "../mixins/values.scss";
+
+footer {
+  height: 170px;
+  background-color: $aside;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  @include base_text;
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: white;
+    }
+  }
+}

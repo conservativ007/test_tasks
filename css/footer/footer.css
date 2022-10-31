@@ -1,0 +1,22 @@
+footer {
+  height: 170px;
+  background-color: #777777;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  line-height: 22px;
+  font-size: 14px;
+}
+footer .about {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+}
+footer nav {
+  display: flex;
+  flex-direction: column;
+}
+footer nav a {
+  color: white;
+}/*# sourceMappingURL=footer.css.map */
