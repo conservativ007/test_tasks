@@ -1,0 +1,37 @@
+@import "../mixins/values.scss";
+
+menu {
+  nav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $header_color_text_paragraph;
+
+    p {
+      color: white;
+      cursor: pointer;
+    }
+
+    p:hover {
+      border-bottom: 1px solid grey;
+    }
+
+    p+p {
+      margin-left: 20px;
+      position: relative;
+    }
+
+    p+p::before {
+      position: absolute;
+      content: "";
+      width: 1px;
+      height: 15px;
+      background-color: white;
+
+      top: 5px;
+      left: -10px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+menu nav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9f9f9f;
+}
+menu nav p {
+  color: white;
+  cursor: pointer;
+}
+menu nav p:hover {
+  border-bottom: 1px solid grey;
+}
+menu nav p + p {
+  margin-left: 20px;
+  position: relative;
+}
+menu nav p + p::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 15px;
+  background-color: white;
+  top: 5px;
+  left: -10px;
+}/*# sourceMappingURL=menu.css.map */
