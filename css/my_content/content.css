@@ -1,0 +1,78 @@
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.content aside {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  background-color: #777777;
+  color: white;
+  padding: 20px;
+}
+.content aside .news-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+.content aside .news-title__content {
+  margin-top: 30px;
+}
+.content aside .news-title__content-time {
+  line-height: 22px;
+  font-size: 14px;
+}
+.content aside .news-title__content-describe {
+  line-height: 22px;
+  font-size: 14px;
+}
+.content aside .news-rar {
+  line-height: 22px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+  border-bottom: 1px solid white;
+}
+.content .about {
+  width: 500px;
+  height: 600px;
+  padding-left: 50px;
+}
+.content .about .about-us__title {
+  color: #838383;
+  font-size: 24px;
+  font-weight: 500;
+}
+.content .about .about-us__about {
+  margin-top: 20px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #838383;
+}
+.content .about .about-made {
+  height: 350px;
+  -moz-columns: 2;
+       columns: 2;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.content .about .about-made__title {
+  color: #838383;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.content .about .about-made__describe {
+  line-height: 22px;
+  font-size: 14px;
+  color: #838383;
+}
+.content .about .about-made__describe {
+  margin-top: 20px;
+}
+.content .about .about-divider {
+  width: 50px;
+  height: 66px;
+}/*# sourceMappingURL=content.css.map */

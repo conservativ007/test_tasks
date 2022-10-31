@@ -1,0 +1,93 @@
+@import "../mixins/values.scss";
+@import "../mixins/mixins.scss";
+
+.content {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  aside {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    background-color: $aside;
+    color: white;
+    padding: 20px;
+
+    .news-title {
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    .news-title__content {
+      margin-top: 30px;
+    }
+
+    .news-title__content-time {
+      @include base_text;
+    }
+
+    .news-title__content-describe {
+      @include base_text;
+    }
+
+    .news-rar {
+      @include base_text;
+      position: absolute;
+      bottom: 15px;
+      right: 25px;
+      border-bottom: 1px solid white;
+    }
+  }
+
+  .about {
+    width: 500px;
+    height: 600px;
+    padding-left: 50px;
+
+    // about us
+    .about-us__title {
+      color: $content_menu;
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .about-us__about {
+      margin-top: 20px;
+      @include base_text;
+      color: $content_menu;
+    }
+
+    // about made
+    .about-made {
+      height: 350px;
+      columns: 2;
+      column-gap: 25px;
+    }
+
+    .about-made__title {
+      color: $content_menu;
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 40px;
+    }
+
+    .about-made__describe {
+      @include base_text;
+      color: $content_menu;
+
+    }
+
+    .about-made__describe {
+      margin-top: 20px;
+    }
+
+    // about-divider
+    .about-divider {
+      width: 50px;
+      height: 66px;
+    }
+  }
+}
