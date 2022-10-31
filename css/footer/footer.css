@@ -1,9 +1,10 @@
 footer {
-  height: 170px;
+  width: 980px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   background-color: #777777;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   color: white;
   line-height: 22px;
   font-size: 14px;

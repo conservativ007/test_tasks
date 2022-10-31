@@ -4,4 +4,5 @@
 .slider img {
   width: 980px;
   height: 100%;
+  overflow: hidden;
 }/*# sourceMappingURL=slider.css.map */

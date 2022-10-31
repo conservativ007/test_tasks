@@ -1,5 +1,7 @@
 header {
-  height: 170px;
+  width: 980px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -22,7 +24,11 @@ header .logo .logo-describe__describe {
   color: #9f9f9f;
 }
 header .sale {
+  display: flex;
   color: #9f9f9f;
+}
+header .sale time {
+  margin-left: 5px;
 }
 header .contacts {
   font-size: 22px;

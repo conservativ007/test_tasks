@@ -2,7 +2,10 @@
 @import "../mixins/values.scss";
 
 header {
-  height: 170px;
+  width: 980px;
+
+  padding-top: 35px;
+  padding-bottom: 35px;
 
   display: flex;
   justify-content: space-around;
@@ -33,11 +36,15 @@ header {
   }
 
   .sale {
+    display: flex;
     color: $header_color_text_paragraph;
   }
 
+  .sale time {
+    margin-left: 5px;
+  }
+
   .contacts {
-    // @include base_lineheight;
     font-size: 22px;
     font-weight: 600;
     color: $header_color_text_contacts;

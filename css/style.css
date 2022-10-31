@@ -7,8 +7,18 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 .container {
   width: 1000px;
+  height: 100%;
   margin: 0 auto;
   padding: 0 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
