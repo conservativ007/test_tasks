@@ -1,0 +1,111 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+@import "https://fonts.fontstorage.com/import/alegreyasans.css";
+.help {
+  height: 740px;
+}
+.help .help-container {
+  height: 740px;
+  padding: 64px 0;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+.help .help-container .help-buyer {
+  width: 282px;
+}
+.help .help-container .help-buyer__usefullinks {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888888;
+}
+.help .help-container .help-buyer__title {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 116%;
+  color: #174463;
+  margin-top: 8px;
+}
+.help .help-container .help-buyer__describe {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: #404040;
+  margin-top: 16px;
+}
+.help .help-container .help-configurator {
+  width: 384px;
+  height: 466px;
+  padding: 40px 32px;
+  padding-top: 0;
+  position: relative;
+  background-color: #F2F6FB;
+}
+.help .help-container .help-configurator img {
+  width: 384px;
+  height: 308px;
+  position: absolute;
+  top: -145px;
+  left: 0;
+}
+.help .help-container .help-configurator.first {
+  margin-left: 126px;
+}
+.help .help-container .help-configurator + .help-configurator {
+  margin-left: 24px;
+}
+.help .help-container .help-configurator__title {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  color: #1E1E1E;
+  margin-top: 200px;
+}
+.help .help-container .help-configurator__describe {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: #404040;
+  margin-top: 16px;
+}
+.help .help-container .help-configurator__button {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  width: 181px;
+  height: 46px;
+  border-radius: 2px;
+  background-color: #174463;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  cursor: pointer;
+}/*# sourceMappingURL=help.css.map */

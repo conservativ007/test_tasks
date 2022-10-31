@@ -1,0 +1,88 @@
+@import "../mixins/desktop.scss";
+@import "../mixins/colors.scss";
+
+.help {
+  height: 740px;
+
+
+  .help-container {
+    height: 740px;
+    padding: 64px 0;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+
+    // help to buyer
+
+    .help-buyer {
+      width: 282px;
+    }
+
+    .help-buyer__usefullinks {
+      @include h-13;
+      color: $black60;
+    }
+
+    .help-buyer__title {
+      @include h-29;
+      color: $main-dark-blue;
+      margin-top: 8px;
+    }
+
+    .help-buyer__describe {
+      @include t-15;
+      color: $black70;
+      margin-top: 16px;
+    }
+
+
+    // configurator
+
+    .help-configurator {
+      width: 384px;
+      height: 466px;
+      padding: 40px 32px;
+      padding-top: 0;
+      position: relative;
+      background-color: $light-blue;
+
+      img {
+        width: 384px;
+        height: 308px;
+        position: absolute;
+        top: -145px;
+        left: 0;
+      }
+    }
+
+    .help-configurator.first {
+      margin-left: 126px;
+    }
+
+    .help-configurator+.help-configurator {
+      margin-left: 24px;
+    }
+
+
+    .help-configurator__title {
+      @include h-24;
+      color: $black80;
+
+      margin-top: 200px;
+    }
+
+    .help-configurator__describe {
+      @include t-15;
+      color: $black70;
+
+      margin-top: 16px;
+    }
+
+    .help-configurator__button {
+      @include button;
+
+      margin-top: 40px;
+      cursor: pointer;
+    }
+  }
+}

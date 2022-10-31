@@ -171,3 +171,16 @@
   font-size: 51px;
   line-height: 110%;
 }
+
+@mixin button {
+  @include t-15;
+  width: 181px;
+  height: 46px;
+  border-radius: 2px;
+  background-color: $main-dark-blue;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
