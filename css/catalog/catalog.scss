@@ -1,0 +1,48 @@
+@import "../mixins/desktop.scss";
+@import "../mixins/colors.scss";
+
+.catalog {
+  height: 510px;
+  position: relative;
+  margin: 0 auto;
+
+  background-image: url("../../img/catalog/fruits.png");
+  width: 1440px;
+  height: 510px;
+
+  .catalog-info {
+    padding: 40px;
+    position: absolute;
+    width: 472px;
+    height: 302px;
+
+    top: 160px;
+    left: 120px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+    .catalog-info__title {
+      @include h-29;
+      color: $main-dark-blue;
+    }
+
+    .catalog-info__describe {
+      @include t-15;
+      color: $black70;
+      margin-top: 16px;
+    }
+
+    .catalog-info__button {
+      margin-top: 40px;
+      width: 219px;
+      height: 46px;
+      padding: 12px 32px;
+      background-color: $main-dark-blue;
+      @include t-15;
+      color: white;
+    }
+  }
+}

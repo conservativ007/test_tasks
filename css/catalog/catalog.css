@@ -1,0 +1,57 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+@import "https://fonts.fontstorage.com/import/alegreyasans.css";
+.catalog {
+  height: 510px;
+  position: relative;
+  margin: 0 auto;
+  background-image: url("../../img/catalog/fruits.png");
+  width: 1440px;
+  height: 510px;
+}
+.catalog .catalog-info {
+  padding: 40px;
+  position: absolute;
+  width: 472px;
+  height: 302px;
+  top: 160px;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.catalog .catalog-info .catalog-info__title {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 116%;
+  color: #174463;
+}
+.catalog .catalog-info .catalog-info__describe {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: #404040;
+  margin-top: 16px;
+}
+.catalog .catalog-info .catalog-info__button {
+  margin-top: 40px;
+  width: 219px;
+  height: 46px;
+  padding: 12px 32px;
+  background-color: #174463;
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: white;
+}/*# sourceMappingURL=catalog.css.map */
