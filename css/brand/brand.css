@@ -1,0 +1,49 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+@import "https://fonts.fontstorage.com/import/alegreyasans.css";
+.brand {
+  height: 508px;
+}
+.brand .container {
+  height: 508px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.brand .brand-title {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 116%;
+  color: #174463;
+}
+.brand .brand-container {
+  display: flex;
+  justify-content: space-between;
+}
+.brand .brand-container .brand-container__item {
+  width: 282px;
+  height: 144px;
+}
+.brand .brand-container .brand-container__item img {
+  width: 180px;
+  height: 48px;
+}
+.brand .brand-container .brand-container__item .brand-container__item-describe {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+  margin-top: 8px;
+}
+.brand .brand-container.second {
+  justify-content: start;
+}
+.brand .brand-container.second .brand-container__item {
+  margin-right: 24px;
+}/*# sourceMappingURL=brand.css.map */

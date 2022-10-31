@@ -1,0 +1,47 @@
+@import "../mixins/desktop.scss";
+@import "../mixins/colors.scss";
+
+.brand {
+  height: 508px;
+
+
+  .container {
+    height: 508px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .brand-title {
+    @include h-29;
+    color: $main-dark-blue;
+  }
+
+  .brand-container {
+    display: flex;
+    justify-content: space-between;
+
+    .brand-container__item {
+      width: 282px;
+      height: 144px;
+    }
+
+    .brand-container__item img {
+      width: 180px;
+      height: 48px;
+    }
+
+    .brand-container__item .brand-container__item-describe {
+      @include t-14;
+      margin-top: 8px;
+    }
+  }
+
+  .brand-container.second {
+    justify-content: start;
+
+    .brand-container__item {
+      margin-right: 24px;
+    }
+  }
+}
