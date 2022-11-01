@@ -22,8 +22,18 @@
     justify-content: space-between;
 
     .brand-container__item {
+      position: relative;
       width: 282px;
       height: 144px;
+    }
+
+    .brand-container__item::before {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 1px;
+      background-color: $grey30;
+      left: -15px;
     }
 
     .brand-container__item img {

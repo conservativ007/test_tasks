@@ -1,0 +1,144 @@
+@import "https://fonts.fontstorage.com/import/golostext.css";
+@import "https://fonts.fontstorage.com/import/alegreyasans.css";
+footer {
+  height: 860px;
+  background-color: #174463;
+}
+footer .products {
+  padding-top: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .products .products-content__title {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  color: white;
+}
+footer .products .products-content__product {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+  color: #EAEAEA;
+}
+footer .products .products-content p + p {
+  margin-top: 14px;
+}
+footer .products .products-content__product.arrow_two {
+  margin-top: 14px;
+  position: relative;
+}
+footer .products .products-content__product.arrow_two img {
+  position: absolute;
+  bottom: 3px;
+  left: 105px;
+}
+footer .products .products-content__product.arrow_one {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+footer .divider.one {
+  margin-top: 46px;
+  width: 510px;
+  height: 1px;
+  background-color: #2b658d;
+}
+footer .selection {
+  margin-top: 24px;
+  display: flex;
+}
+footer .selection .selection-choice {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+  color: #EAEAEA;
+}
+footer .selection div + div {
+  margin-left: 140px;
+}
+footer .divider.two {
+  margin-top: 88px;
+  width: 100%;
+  height: 1px;
+  background-color: #2b658d;
+}
+footer .about {
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+footer .about .about-content__logo {
+  width: 200px;
+  height: 32px;
+}
+footer .about .about-content__about {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 158%;
+  color: #EAEAEA;
+  margin-top: 24px;
+}
+footer .about nav {
+  display: flex;
+}
+footer .about nav p + p {
+  margin-left: 24px;
+}
+footer .about nav p span {
+  font-weight: bold;
+}
+footer .about .about-content__contacts.phone {
+  width: 530px;
+  height: 43px;
+}
+footer .about .about-content__contacts.phone .phone {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  color: white;
+}
+footer .about .about-content__contacts.phone .describe {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000103;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 158%;
+  color: #EAEAEA;
+}
+footer .about .about-content__contacts.city {
+  margin-top: 24px;
+}
+footer .about .about-content__contacts.city p:last-child {
+  margin-top: 8px;
+}
+footer .about .social {
+  position: absolute;
+  width: 178px;
+  height: 40px;
+  left: 870px;
+  display: flex;
+}/*# sourceMappingURL=footer.css.map */

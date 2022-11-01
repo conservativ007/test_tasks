@@ -1,0 +1,143 @@
+@import "../mixins/desktop.scss";
+@import "../mixins/colors.scss";
+
+footer {
+  height: 860px;
+
+  background-color: $main-dark-blue;
+
+
+  .products {
+    padding-top: 72px;
+    display: flex;
+    justify-content: space-between;
+
+    .products-content__title {
+      @include h-21;
+      color: white;
+    }
+
+    .products-content__product {
+      @include t-14;
+      color: $grey20;
+    }
+
+    .products-content p+p {
+      margin-top: 14px;
+    }
+
+    .products-content__product.arrow_two {
+      margin-top: 14px;
+      position: relative;
+
+      img {
+        position: absolute;
+        bottom: 3px;
+        left: 105px;
+      }
+    }
+
+    .products-content__product.arrow_one {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .divider.one {
+    margin-top: 46px;
+    width: 510px;
+    height: 1px;
+    background-color: $dark-blue95;
+  }
+
+  .selection {
+    margin-top: 24px;
+    display: flex;
+
+    .selection-choice {
+      @include t-14;
+      color: $grey20;
+    }
+  }
+
+  .selection div+div {
+    margin-left: 140px;
+  }
+
+
+  .divider.two {
+    margin-top: 88px;
+    width: 100%;
+    height: 1px;
+    background-color: $dark-blue95;
+  }
+
+  .about {
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+
+    // about section one
+    .about-content__logo {
+      width: 200px;
+      height: 32px;
+    }
+
+    .about-content__about {
+      @include t-12;
+      color: $grey20;
+      margin-top: 24px;
+    }
+
+    nav {
+      display: flex;
+
+      p+p {
+        margin-left: 24px;
+      }
+    }
+
+    nav p span {
+      font-weight: bold;
+    }
+
+    // about section two
+
+    .about-content__contacts.phone {
+      width: 530px;
+      height: 43px;
+
+      .phone {
+        @include h-21;
+        color: white;
+      }
+
+      .describe {
+        @include t-11;
+        color: $grey20;
+      }
+    }
+
+    .about-content__contacts.city {
+      margin-top: 24px;
+    }
+
+    .about-content__contacts.city p:last-child {
+      margin-top: 8px;
+    }
+
+
+    .social {
+      position: absolute;
+      width: 178px;
+      height: 40px;
+
+      left: 870px;
+
+      display: flex;
+    }
+  }
+}
