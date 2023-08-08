@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  server:
+    image: conservativ/victorina-server
+    # build: .
+    ports:
+      - '4010:4010'
+    command: npm run start
+    volumes:
+      - ./server-files:/data/files
+
+  frontend:
+    image: conservativ/victorina-client
+    # build: '../client/'
+    ports:
+      - '3010:3010'
+    command: npm run start
