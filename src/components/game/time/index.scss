@@ -1,0 +1,37 @@
+.balls-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+  font-size: 18px;
+
+  .time,
+  .balls {
+    position: relative;
+
+    .balls-value,
+    .time-value {
+      position: absolute;
+      top: 57%;
+      left: 50%;
+
+      transform: translate(-50%, -50%);
+    }
+
+    .time-value {
+      font-size: 30px;
+      color: #3498db;
+    }
+
+    .balls-value {
+      font-size: 30px;
+      color: #e67e22;
+    }
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}

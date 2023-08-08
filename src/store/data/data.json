@@ -1,0 +1,278 @@
+[
+  {
+    "question": "Какой бренд выпускает модель 'Civic'?",
+    "answers": [
+      { "isTrue": false, "answer": "Toyota" },
+      { "isTrue": true, "answer": "Honda" },
+      { "isTrue": false, "answer": "Ford" },
+      { "isTrue": false, "answer": "Chevrolet" }
+    ]
+  },
+  {
+    "question": "Какое топливо использует двигатель с внутренним сгоранием?",
+    "answers": [
+      { "isTrue": true, "answer": "Бензин" },
+      { "isTrue": false, "answer": "Дизель" },
+      { "isTrue": false, "answer": "Электричество" },
+      { "isTrue": false, "answer": "Водород" }
+    ]
+  },
+  {
+    "question": "Какой компонент автомобиля отвечает за охлаждение двигателя?",
+    "answers": [
+      { "isTrue": true, "answer": "Радиатор" },
+      { "isTrue": false, "answer": "Турбокомпрессор" },
+      { "isTrue": false, "answer": "Сцепление" },
+      { "isTrue": false, "answer": "Дифференциал" }
+    ]
+  },
+  {
+    "question": "Какой автомобильный прибор измеряет скорость вращения колес?",
+    "answers": [
+      { "isTrue": false, "answer": "Тахометр" },
+      { "isTrue": true, "answer": "Скоростемер" },
+      { "isTrue": false, "answer": "Амперметр" },
+      { "isTrue": false, "answer": "Манометр" }
+    ]
+  },
+  {
+    "question": "Какой вид трансмиссии обеспечивает наибольшую эффективность топливопотребления?",
+    "answers": [
+      { "isTrue": true, "answer": "CVT (вариатор)" },
+      { "isTrue": false, "answer": "Механическая" },
+      { "isTrue": false, "answer": "Автоматическая" },
+      { "isTrue": false, "answer": "Роботизированная" }
+    ]
+  },
+  {
+    "question": "Какой компонент автомобиля служит для смазки двигателя?",
+    "answers": [
+      { "isTrue": true, "answer": "Масло" },
+      { "isTrue": false, "answer": "Вода" },
+      { "isTrue": false, "answer": "Топливо" },
+      { "isTrue": false, "answer": "Антифриз" }
+    ]
+  },
+  {
+    "question": "Что измеряет автомобильный амперметр?",
+    "answers": [
+      { "isTrue": true, "answer": "Ток" },
+      { "isTrue": false, "answer": "Скорость" },
+      { "isTrue": false, "answer": "Температуру" },
+      { "isTrue": false, "answer": "Давление" }
+    ]
+  },
+  {
+    "question": "Какой бренд производит автомобили 'Mustang'?",
+    "answers": [
+      { "isTrue": true, "answer": "Ford" },
+      { "isTrue": false, "answer": "Chevrolet" },
+      { "isTrue": false, "answer": "Dodge" },
+      { "isTrue": false, "answer": "Chrysler" }
+    ]
+  },
+  {
+    "question": "Какая часть автомобиля отвечает за преобразование энергии двигателя в движение?",
+    "answers": [
+      { "isTrue": true, "answer": "Трансмиссия" },
+      { "isTrue": false, "answer": "Рулевая колонка" },
+      { "isTrue": false, "answer": "Дифференциал" },
+      { "isTrue": false, "answer": "Топливный бак" }
+    ]
+  },
+  {
+    "question": "Какое масло используется для смазки подвижных частей автомобиля?",
+    "answers": [
+      { "isTrue": true, "answer": "Смазочное масло" },
+      { "isTrue": false, "answer": "Трансмиссионное масло" },
+      { "isTrue": false, "answer": "Тормозная жидкость" },
+      { "isTrue": false, "answer": "Антифриз" }
+    ]
+  },
+  {
+    "question": "Какой бренд выпускает модель 'Model S'?",
+    "answers": [
+      { "isTrue": true, "answer": "Tesla" },
+      { "isTrue": false, "answer": "Chevrolet" },
+      { "isTrue": false, "answer": "Ford" },
+      { "isTrue": false, "answer": "Nissan" }
+    ]
+  },
+  {
+    "question": "Что такое ABS в автомобиле?",
+    "answers": [
+      { "isTrue": true, "answer": "Антиблокировочная система тормозов" },
+      { "isTrue": false, "answer": "Автоматическая система стабилизации" },
+      { "isTrue": false, "answer": "Автоматическая система безопасности" },
+      { "isTrue": false, "answer": "Автономная система управления" }
+    ]
+  },
+  {
+    "question": "Как называется устройство, которое преобразует кинетическую энергию в электрическую в автомобиле?",
+    "answers": [
+      { "isTrue": true, "answer": "Генератор" },
+      { "isTrue": false, "answer": "Аккумулятор" },
+      { "isTrue": false, "answer": "Стартер" },
+      { "isTrue": false, "answer": "Динамо" }
+    ]
+  },
+  {
+    "question": "Как называется тип кузова автомобиля, у которого есть отдельный багажник?",
+    "answers": [
+      { "isTrue": true, "answer": "Седан" },
+      { "isTrue": false, "answer": "Хэтчбек" },
+      { "isTrue": false, "answer": "Универсал" },
+      { "isTrue": false, "answer": "Купе" }
+    ]
+  },
+  {
+    "question": "Как называется самый дорогой автомобиль в мире на 2023 год?",
+    "answers": [
+      { "isTrue": true, "answer": "Bugatti La Voiture Noire" },
+      { "isTrue": false, "answer": "Rolls-Royce Sweptail" },
+      { "isTrue": false, "answer": "Pagani Zonda HP Barchetta" },
+      { "isTrue": false, "answer": "Lamborghini Veneno Roadster" }
+    ]
+  },
+  {
+    "question": "Какой автомобильный бренд имеет логотип в виде трех красных полос?",
+    "answers": [
+      { "isTrue": true, "answer": "Alfa Romeo" },
+      { "isTrue": false, "answer": "Ferrari" },
+      { "isTrue": false, "answer": "Maserati" },
+      { "isTrue": false, "answer": "Lamborghini" }
+    ]
+  },
+  {
+    "question": "Как называется процесс смешивания воздуха и топлива в двигателе?",
+    "answers": [
+      { "isTrue": true, "answer": "Карбюрация" },
+      { "isTrue": false, "answer": "Инжекция" },
+      { "isTrue": false, "answer": "Компрессия" },
+      { "isTrue": false, "answer": "Детонация" }
+    ]
+  },
+  {
+    "question": "Какой автомобильный бренд был основан бывшими сотрудниками Ferrari?",
+    "answers": [
+      { "isTrue": true, "answer": "Lamborghini" },
+      { "isTrue": false, "answer": "Pagani" },
+      { "isTrue": false, "answer": "Bugatti" },
+      { "isTrue": false, "answer": "Aston Martin" }
+    ]
+  },
+  {
+    "question": "Как называется самый быстрый серийный автомобиль в мире?",
+    "answers": [
+      { "isTrue": true, "answer": "Bugatti Chiron Super Sport 300+" },
+      { "isTrue": false, "answer": "Koenigsegg Agera RS" },
+      { "isTrue": false, "answer": "Hennessey Venom GT" },
+      { "isTrue": false, "answer": "SSC Tuatara" }
+    ]
+  },
+  {
+    "question": "Какая страна является крупнейшим производителем автомобилей в мире?",
+    "answers": [
+      { "isTrue": true, "answer": "Китай" },
+      { "isTrue": false, "answer": "США" },
+      { "isTrue": false, "answer": "Япония" },
+      { "isTrue": false, "answer": "Германия" }
+    ]
+  },
+  {
+    "question": "Какой бренд выпускает модель '911 Carrera'?",
+    "answers": [
+      { "isTrue": true, "answer": "Porsche" },
+      { "isTrue": false, "answer": "Ferrari" },
+      { "isTrue": false, "answer": "Lamborghini" },
+      { "isTrue": false, "answer": "Audi" }
+    ]
+  },
+  {
+    "question": "Какой год считается датой рождения автомобиля?",
+    "answers": [
+      { "isTrue": true, "answer": "1886" },
+      { "isTrue": false, "answer": "1901" },
+      { "isTrue": false, "answer": "1920" },
+      { "isTrue": false, "answer": "1950" }
+    ]
+  },
+  {
+    "question": "Что такое турбонаддув в автомобиле?",
+    "answers": [
+      { "isTrue": true, "answer": "Система увеличения мощности двигателя" },
+      { "isTrue": false, "answer": "Система охлаждения" },
+      { "isTrue": false, "answer": "Система кондиционирования" },
+      { "isTrue": false, "answer": "Система топливоподачи" }
+    ]
+  },
+  {
+    "question": "Что обозначает аббревиатура SUV?",
+    "answers": [
+      { "isTrue": true, "answer": "Спортивный утилитарный автомобиль" },
+      { "isTrue": false, "answer": "Семейный универсальный вагон" },
+      { "isTrue": false, "answer": "Стандартное универсальное видение" },
+      { "isTrue": false, "answer": "Система улучшенной видимости" }
+    ]
+  },
+  {
+    "question": "Что такое круиз-контроль в автомобиле?",
+    "answers": [
+      { "isTrue": true, "answer": "Система поддержания постоянной скорости" },
+      { "isTrue": false, "answer": "Система управления мультимедиа" },
+      { "isTrue": false, "answer": "Система ночного видения" },
+      { "isTrue": false, "answer": "Система автоматической парковки" }
+    ]
+  },
+  {
+    "question": "Какой бренд производит автомобили 'X5'?",
+    "answers": [
+      { "isTrue": true, "answer": "BMW" },
+      { "isTrue": false, "answer": "Mercedes-Benz" },
+      { "isTrue": false, "answer": "Audi" },
+      { "isTrue": false, "answer": "Lexus" }
+    ]
+  },
+  {
+    "question": "Что такое крутящий момент двигателя?",
+    "answers": [
+      {
+        "isTrue": true,
+        "answer": "Сила, прилагаемая двигателем к вращающейся оси"
+      },
+      { "isTrue": false, "answer": "Скорость двигателя" },
+      { "isTrue": false, "answer": "Расход топлива" },
+      { "isTrue": false, "answer": "Температура двигателя" }
+    ]
+  },
+  {
+    "question": "Что такое круиз-контроль в автомобиле?",
+    "answers": [
+      { "isTrue": true, "answer": "Система поддержания постоянной скорости" },
+      { "isTrue": false, "answer": "Система управления мультимедиа" },
+      { "isTrue": false, "answer": "Система ночного видения" },
+      { "isTrue": false, "answer": "Система автоматической парковки" }
+    ]
+  },
+  {
+    "question": "Какой бренд производит автомобили 'X5'?",
+    "answers": [
+      { "isTrue": true, "answer": "BMW" },
+      { "isTrue": false, "answer": "Mercedes-Benz" },
+      { "isTrue": false, "answer": "Audi" },
+      { "isTrue": false, "answer": "Lexus" }
+    ]
+  },
+  {
+    "question": "Что такое крутящий момент двигателя?",
+    "answers": [
+      {
+        "isTrue": true,
+        "answer": "Сила, прилагаемая двигателем к вращающейся оси"
+      },
+      { "isTrue": false, "answer": "Скорость двигателя" },
+      { "isTrue": false, "answer": "Расход топлива" },
+      { "isTrue": false, "answer": "Температура двигателя" }
+    ]
+  }
+]
