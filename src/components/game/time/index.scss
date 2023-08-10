@@ -1,5 +1,5 @@
 .balls-container {
-  margin-top: 20px;
+  position: relative;
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -9,6 +9,11 @@
   .time,
   .balls {
     position: relative;
+
+    .balls-description,
+    .time-description {
+      margin-bottom: 10px;
+    }
 
     .balls-value,
     .time-value {
@@ -33,5 +38,29 @@
   img {
     width: 100px;
     height: 100px;
+  }
+}
+
+@media (max-width: 930px) and (min-width: 100px) {
+  .victorina {
+    font-size: 16px;
+  }
+
+  .balls-container {
+    margin-top: 0;
+    gap: 20px;
+
+    .time,
+    .balls {
+      .time-value,
+      .balls-value {
+        font-size: 20px;
+      }
+    }
+
+    img {
+      width: 85px;
+      height: 85px;
+    }
   }
 }

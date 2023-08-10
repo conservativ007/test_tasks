@@ -5,13 +5,14 @@
   align-items: center;
 
   color: white;
-  font-size: 18px;
+  font-size: 16px;
 
   .question {
     width: 480px;
     padding: 10px;
     background-color: #3498db;
     border-radius: 5px;
+    line-height: 16px;
   }
 
   .answers {
@@ -45,5 +46,30 @@
 
   .green {
     background-color: #2ecc71;
+  }
+}
+
+@media (max-width: 930px) and (min-width: 100px) {
+  .questions {
+    max-width: 480px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    .question {
+      width: 100%;
+      padding: 5px;
+    }
+
+    .answers {
+      margin-top: 10px;
+      width: 100%;
+      gap: 5px;
+      font-size: 15px;
+
+      .answer {
+        width: 49%;
+        padding: 5px;
+      }
+    }
   }
 }

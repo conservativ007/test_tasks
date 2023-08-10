@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Form } from './components/form/Form';
 import { Game } from './components/game/Game';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';

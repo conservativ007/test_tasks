@@ -15,9 +15,12 @@ export const StartGame = () => {
 
   if (startGame === false) {
     return (
-      <p onClick={handleClick} className="start-game">
-        Начать
-      </p>
+      <div className="start-game">
+        <p className="victorina">Викторина</p>
+        <p onClick={handleClick} className="describe">
+          Начать
+        </p>
+      </div>
     );
   }
 

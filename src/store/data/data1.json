@@ -1,0 +1,611 @@
+[
+  {
+    "question": "Что символизирует подсолнух, изображенный на логотипе «Ленты»?",
+    "answers": [
+      {
+        "isTrue": true,
+        "answer": "Это символ роста и развития"
+      },
+      {
+        "isTrue": false,
+        "answer": "Нацеленность на сельско-хозяйственный сектор"
+      },
+      {
+        "isTrue": false,
+        "answer": "Изначально «Лента» являлась брендом подсолнечного масла"
+      },
+      {
+        "isTrue": false,
+        "answer": "Логотип похож на солнце, символ богатства"
+      }
+    ]
+  },
+  {
+    "question": "К торговым маркам сети «Лента» не относится?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "365 дней"
+      },
+      {
+        "isTrue": false,
+        "answer": "Отличная цена"
+      },
+      {
+        "isTrue": true,
+        "answer": "Global Village"
+      },
+      {
+        "isTrue": false,
+        "answer": "Bigga"
+      }
+    ]
+  },
+  {
+    "question": "В каком году стартовала первая акция под названием «Мини Лента»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "2015"
+      },
+      {
+        "isTrue": true,
+        "answer": "2016"
+      },
+      {
+        "isTrue": false,
+        "answer": "2017"
+      },
+      {
+        "isTrue": false,
+        "answer": "2019"
+      }
+    ]
+  },
+  {
+    "question": "Какой из нижеперечисленных акций не проводилось в «Ленте»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "«Тикеры-Токеры»"
+      },
+      {
+        "isTrue": false,
+        "answer": "«Мини Лента»"
+      },
+      {
+        "isTrue": false,
+        "answer": "«Вырасти с Лентой»"
+      },
+      {
+        "isTrue": true,
+        "answer": "«Приколыши»"
+      }
+    ]
+  },
+  {
+    "question": "Среди новых призов «Мини Ленты» вы можете найти товар от бренда производителя корма для животных Felix. А в каком году был выпущен первый продукт этого бренда?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "1885"
+      },
+      {
+        "isTrue": false,
+        "answer": "1900"
+      },
+      {
+        "isTrue": false,
+        "answer": "1936"
+      },
+      {
+        "isTrue": true,
+        "answer": "1985"
+      }
+    ]
+  },
+  {
+    "question": "Какого из продуктов не было в акции «Мини Лента»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Сок «Добрый»"
+      },
+      {
+        "isTrue": false,
+        "answer": "Чай «Lipton»"
+      },
+      {
+        "isTrue": false,
+        "answer": "Освежитель воздуха «AirWick»"
+      },
+      {
+        "isTrue": true,
+        "answer": "Пиво «BUD»"
+      }
+    ]
+  },
+  {
+    "question": "Среди товаров «Ленты» довольно большой выбор пиццы. Все знают, что родина этого блюда – Италия. Но знаете ли Вы какая страна является домом «Гавайской пиццы»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Италия"
+      },
+      {
+        "isTrue": false,
+        "answer": "Гавайи"
+      },
+      {
+        "isTrue": false,
+        "answer": "Испания"
+      },
+      {
+        "isTrue": true,
+        "answer": "Канада"
+      }
+    ]
+  },
+  {
+    "question": "Как зовут рыжего кота из «Ленты»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Ап"
+      },
+      {
+        "isTrue": false,
+        "answer": "Мур"
+      },
+      {
+        "isTrue": true,
+        "answer": "Ух"
+      },
+      {
+        "isTrue": false,
+        "answer": "Ур"
+      }
+    ]
+  },
+  {
+    "question": "В «Ленте» всегда можно приобрести свежие фрукты, овощи и другие товары для воплощения любых кулинарных изысков. Для какого из этих салатов вам не придется покупать морковь?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "«Оливье»"
+      },
+      {
+        "isTrue": false,
+        "answer": "«Мимоза»"
+      },
+      {
+        "isTrue": true,
+        "answer": "«Цезарь»"
+      },
+      {
+        "isTrue": false,
+        "answer": "«Фудзияма»"
+      }
+    ]
+  },
+  {
+    "question": "Сколько всего было акций «Мини Лента»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "2"
+      },
+      {
+        "isTrue": true,
+        "answer": "3"
+      },
+      {
+        "isTrue": false,
+        "answer": "4"
+      },
+      {
+        "isTrue": false,
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "question": "Сколько весила самая большая головка сыра?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "535 кг"
+      },
+      {
+        "isTrue": true,
+        "answer": "721 кг"
+      },
+      {
+        "isTrue": false,
+        "answer": "801 кг"
+      },
+      {
+        "isTrue": false,
+        "answer": "859 кг"
+      }
+    ]
+  },
+  {
+    "question": "С каким вкусом никогда не выпускался йогурт под брендом «Простоквашино»?",
+    "answers": [
+      {
+        "isTrue": true,
+        "answer": "Со смородиной"
+      },
+      {
+        "isTrue": false,
+        "answer": "С грушей"
+      },
+      {
+        "isTrue": false,
+        "answer": "С персиком"
+      },
+      {
+        "isTrue": false,
+        "answer": "С крыжовником"
+      }
+    ]
+  },
+  {
+    "question": "Nivea – бренд который знает каждый. Но знаете ли вы, какой продукт стал первым выпущенным на рынок?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Пена для бритья"
+      },
+      {
+        "isTrue": false,
+        "answer": "Шампунь"
+      },
+      {
+        "isTrue": false,
+        "answer": "Мыло"
+      },
+      {
+        "isTrue": true,
+        "answer": "Крем"
+      }
+    ]
+  },
+  {
+    "question": "Какой марки яиц не существует?",
+    "answers": [
+      {
+        "isTrue": true,
+        "answer": "Отборная курочка"
+      },
+      {
+        "isTrue": false,
+        "answer": "Деревенское яйцо"
+      },
+      {
+        "isTrue": false,
+        "answer": "Лето"
+      },
+      {
+        "isTrue": false,
+        "answer": "ДарКур"
+      }
+    ]
+  },
+  {
+    "question": "В торговой сети «Лента» представлено более 30 производителей макаронных изделий. А вы знаете, сколько видов пасты существует в Мире?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "100"
+      },
+      {
+        "isTrue": false,
+        "answer": "200"
+      },
+      {
+        "isTrue": true,
+        "answer": "300"
+      },
+      {
+        "isTrue": false,
+        "answer": "400"
+      }
+    ]
+  },
+  {
+    "question": "Детское питание было изобретено в 1865 году. А первым и самым известным производителем детского питания является?",
+    "answers": [
+      {
+        "isTrue": true,
+        "answer": "Nesttle"
+      },
+      {
+        "isTrue": false,
+        "answer": "Вимм-Билль-Данн"
+      },
+      {
+        "isTrue": false,
+        "answer": "ФрутоНяня"
+      },
+      {
+        "isTrue": false,
+        "answer": "Hippo"
+      }
+    ]
+  },
+  {
+    "question": "Какого товара нет в ассортименте торговой сети «Лента»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Винный уксус"
+      },
+      {
+        "isTrue": false,
+        "answer": "Улитки"
+      },
+      {
+        "isTrue": true,
+        "answer": "Раки"
+      },
+      {
+        "isTrue": false,
+        "answer": "Кокос"
+      }
+    ]
+  },
+  {
+    "question": "Интересный факт: всего 30% населения Земли используют туалетную бумагу. А сколько брендов туалетной бумаги представлено на прилавках магазина «Лента»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "10"
+      },
+      {
+        "isTrue": false,
+        "answer": "14"
+      },
+      {
+        "isTrue": true,
+        "answer": "18"
+      },
+      {
+        "isTrue": false,
+        "answer": "20"
+      }
+    ]
+  },
+  {
+    "question": "Как переводится название средства для стирки «Vanish»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Светлеть"
+      },
+      {
+        "isTrue": true,
+        "answer": "Исчезать"
+      },
+      {
+        "isTrue": false,
+        "answer": "Стирать"
+      },
+      {
+        "isTrue": false,
+        "answer": "Уменьшать"
+      }
+    ]
+  },
+  {
+    "question": "Сейчас батарейки можно найти почти в каждом магазине. Но батареек какого бренда не существует?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Duracell"
+      },
+      {
+        "isTrue": false,
+        "answer": "Фотон"
+      },
+      {
+        "isTrue": false,
+        "answer": "Kodak"
+      },
+      {
+        "isTrue": true,
+        "answer": "Polaris"
+      }
+    ]
+  },
+  {
+    "question": "Чего хочется больше всего в летнюю жару? Правильно! Мороженого! Но знаете ли вы, какая страна является «родиной» этого всеми любимого лакомства?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Франция"
+      },
+      {
+        "isTrue": false,
+        "answer": "Россия"
+      },
+      {
+        "isTrue": false,
+        "answer": "Англия"
+      },
+      {
+        "isTrue": true,
+        "answer": "Китай"
+      }
+    ]
+  },
+  {
+    "question": "Какой из этих брендов снеков представлен в сети «Лента»?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Smakky"
+      },
+      {
+        "isTrue": false,
+        "answer": "Mission"
+      },
+      {
+        "isTrue": false,
+        "answer": "Delicados"
+      },
+      {
+        "isTrue": true,
+        "answer": "Все ответы верны"
+      }
+    ]
+  },
+  {
+    "question": "Как называется самый дорогой в мире кофе?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Jacu Bird"
+      },
+      {
+        "isTrue": false,
+        "answer": "Blue Mauntain"
+      },
+      {
+        "isTrue": false,
+        "answer": "Cofea Deversa"
+      },
+      {
+        "isTrue": true,
+        "answer": "Kopi Luwak"
+      }
+    ]
+  },
+  {
+    "question": "Наверняка вы любите роллы и суши, ну или как минимум хоть раз их пробовали. Традиционно их подают с имбирем, васаби и соевым соусом? Но знаете ли вы зачем в действительности нужен имбирь?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Он убивает микробы в сырой рыбе"
+      },
+      {
+        "isTrue": true,
+        "answer": "Помогает освежить вкус между блюдами"
+      },
+      {
+        "isTrue": false,
+        "answer": "Способствует усвоению риса"
+      },
+      {
+        "isTrue": false,
+        "answer": "Просто для вкуса"
+      }
+    ]
+  },
+  {
+    "question": "Какой марки товаров не существует?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Giardino club"
+      },
+      {
+        "isTrue": false,
+        "answer": "Home club"
+      },
+      {
+        "isTrue": false,
+        "answer": "Premium club"
+      },
+      {
+        "isTrue": true,
+        "answer": "Lucky club"
+      }
+    ]
+  },
+  {
+    "question": "Все знают бренд напитков «Черноголовка». Но что означает его название?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Растение"
+      },
+      {
+        "isTrue": true,
+        "answer": "Птица"
+      },
+      {
+        "isTrue": false,
+        "answer": "Город"
+      },
+      {
+        "isTrue": false,
+        "answer": "Ягода"
+      }
+    ]
+  },
+  {
+    "question": "«Теплый дар», «Ржаной Край», «Harris», «Аютинский». Все это бренды хлебобулочных изделий. Но какой товар они не производят?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Булочки"
+      },
+      {
+        "isTrue": true,
+        "answer": "Квас"
+      },
+      {
+        "isTrue": false,
+        "answer": "Торты"
+      },
+      {
+        "isTrue": false,
+        "answer": "Лаваш"
+      }
+    ]
+  },
+  {
+    "question": "Школьный вопрос: горох принадлежит к какому семейству растений?",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Овощи"
+      },
+      {
+        "isTrue": false,
+        "answer": "Ягоды"
+      },
+      {
+        "isTrue": false,
+        "answer": "Злаковые"
+      },
+      {
+        "isTrue": true,
+        "answer": "Бобовые"
+      }
+    ]
+  },
+  {
+    "question": "Фраза, которая стала «мемом». Закончите фразу: «Я буду говорить только в присутствии своего…».",
+    "answers": [
+      {
+        "isTrue": false,
+        "answer": "Авокадо"
+      },
+      {
+        "isTrue": false,
+        "answer": "Адвоката"
+      },
+      {
+        "isTrue": false,
+        "answer": "Чадо"
+      },
+      {
+        "isTrue": true,
+        "answer": "Томата"
+      }
+    ]
+  }
+]

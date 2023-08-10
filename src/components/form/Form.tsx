@@ -7,8 +7,8 @@ import { useNavigate } from 'react-router-dom';
 import './index.scss';
 
 export const Form = () => {
-  const [userData, setUserData] = useState<string>('test test test');
-  const [city, setCity] = useState<string>('city');
+  const [userData, setUserData] = useState<string>('');
+  const [city, setCity] = useState<string>('');
 
   const dispatch = useAppDispatch();
   const { setUser, setShowForm } = userSlice.actions;
