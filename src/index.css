@@ -29,14 +29,26 @@ body {
   transform: translate(-50%, -50%);
 }
 
-@media (max-width: 930px) and (min-width: 100px) {
+@media (max-width: 960px) {
   body {
     position: relative;
     overflow: hidden;
   }
 
   .App {
-    max-width: 100%;
+    max-width: 640px;
     padding: 0 5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .App {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 450px) {
+  .App {
+    max-width: 370px;
   }
 }
