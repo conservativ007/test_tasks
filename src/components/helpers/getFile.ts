@@ -1,14 +1,27 @@
-const testUrl = 'http://85.209.148.189:4000/user';
+export const getFile = async (localUrl: string) => {
+  console.log('getFile');
+  console.log(localUrl);
 
-const localUrl = process.env.REACT_APP_LOCAL_URL || testUrl;
-console.log(localUrl);
+  try {
+    const response = await fetch(localUrl);
+    const blob = await response.blob();
 
-export const getFile = async () => {
-  const response = await fetch(localUrl);
-  const blob = await response.blob();
+    const downloadLink = document.createElement('a');
+    downloadLink.href = URL.createObjectURL(blob);
+    downloadLink.download = 'test42.xlsx';
 
-  const downloadLink = document.createElement('a');
-  downloadLink.href = URL.createObjectURL(blob);
-  downloadLink.download = 'test42.xlsx';
-  downloadLink.click();
+    // Добавьте ссылку в документ
+    document.body.appendChild(downloadLink);
+
+    // Кликните по ссылке
+    downloadLink.click();
+
+    // Подождите некоторое время
+    await new Promise((resolve) => setTimeout(resolve, 100));
+
+    // Удалите ссылку из документа
+    document.body.removeChild(downloadLink);
+  } catch (error) {
+    console.error('Произошла ошибка:', error);
+  }
 };

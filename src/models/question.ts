@@ -6,6 +6,8 @@ export interface IAnswer {
 export interface IQuestion {
   question: string;
   answers: IAnswer[];
+  isImage: boolean;
+  imageName: string;
 }
 
 export interface IStickers {

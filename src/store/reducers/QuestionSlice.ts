@@ -6,7 +6,8 @@ import {
 import { IQuestion, IStickers } from '../../models/question';
 
 // import data from '../data/data.json';
-import data from '../data/data1.json';
+// import data from '../data/data1.json';
+import data from '../data/data2.json';
 import stickers from '../data/stickers.json';
 
 const getShuffleArray = shuffleArray(data);
@@ -17,6 +18,8 @@ const test = (currentQuestion: IQuestion): IQuestion => {
   const newQuestion: IQuestion = {
     question: currentQuestion.question,
     answers: getsShuffleArray,
+    isImage: currentQuestion.isImage,
+    imageName: currentQuestion.imageName,
   };
   return newQuestion;
 };

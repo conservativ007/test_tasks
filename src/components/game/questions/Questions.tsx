@@ -11,6 +11,7 @@ import { setClearClassToAnswers } from './helpers/setClearClassToAnswers';
 import { checkStartGame } from './helpers/checkStartGame';
 
 import { setToast } from '../../helpers/setToast';
+import { Question } from './question/Question';
 
 export const Questions = () => {
   const dispatch = useAppDispatch();
@@ -121,7 +122,7 @@ export const Questions = () => {
 
   return (
     <div className="questions">
-      <p className="question">{currentQuestion.question}</p>
+      <Question />
       <div className="answers" ref={answersRef}>
         {currentQuestion.answers.map((answer, index) => {
           return (
