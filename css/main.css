@@ -1,0 +1,195 @@
+:root {
+  --dark-gray: #656566;
+  --light-text: #e4e5ea;
+}
+
+main {
+  margin-top: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main aside {
+  min-width: 300px;
+}
+
+main aside .inspire-content {
+  height: 174px;
+}
+
+main aside .inspire-content p:first-child {
+  width: 362px;
+  color: var(--light-text);
+  font-size: 48px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+main aside .inspire-content p:last-child {
+  width: 362px;
+  background: linear-gradient(45deg, #fcb045, #ff3f78);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: 'Inter', sans-serif;
+}
+
+main aside > p {
+  margin-top: 30px;
+  color: var(--light-text);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+main aside .inspire-describe {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  color: #e4e5ea;
+
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+main aside .inspire-describe .two {
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  font-weight: 700;
+}
+
+main aside .inspire-describe .one {
+  font-weight: 500;
+  color: var(--light-text);
+}
+
+main aside .inspire-describe .zero {
+  margin-left: 80px;
+}
+main aside .inspire-describe .zero-one {
+  margin-left: 25px;
+}
+
+.inspire-items {
+  color: var(--light-text);
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 135px 140px;
+  gap: 30px;
+}
+
+.inspire-items .item .name {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.inspire-items .item .name::after {
+  content: attr(data-desktop-text);
+}
+
+.inspire-items .item .describe {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 6px;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 16px;
+}
+
+main button {
+  margin-top: 61px;
+  width: 262px;
+  height: 61px;
+  background-color: #4077f3;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--light-text);
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}
+
+@media (max-width: 1439px) {
+  main {
+    height: 445px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-bottom: 55px;
+    flex-direction: column;
+  }
+
+  main aside .inspire-content {
+    height: 132px;
+  }
+
+  main aside .inspire-content p:first-child {
+    font-size: 36px;
+  }
+  main aside .inspire-content p:last-child {
+    font-size: 36px;
+  }
+
+  main aside > p {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  main aside .inspire-describe .two {
+    text-transform: none;
+  }
+  main aside .inspire-describe {
+    margin-top: 45px;
+  }
+
+  main aside .inspire-describe .one {
+    color: var(--light-text);
+  }
+
+  main aside .inspire-describe .zero {
+    margin-left: 0;
+  }
+  main aside .inspire-describe .zero-one {
+    margin-left: 0;
+  }
+
+  main .inspire-items {
+    margin-top: 20px;
+    gap: 15px;
+    grid-template-columns: 115px 140px;
+  }
+
+  main .inspire-items .item .name {
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.65px;
+    margin-left: 15px;
+  }
+
+  main .inspire-items .item .name::before {
+    content: '';
+    position: absolute;
+    top: 7.5px;
+    left: -15px;
+    height: 1px;
+    width: 10px;
+    background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  }
+
+  main .inspire-items .item .name::after {
+    content: attr(data-mobile-text);
+  }
+
+  main .inspire-items .item .describe {
+    display: none;
+  }
+
+  main button {
+    display: none;
+  }
+}

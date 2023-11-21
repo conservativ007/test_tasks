@@ -1,0 +1,119 @@
+:root {
+  --dark-gray: #656566;
+  --light-text: #e4e5ea;
+}
+
+footer {
+  height: 315px;
+  margin-top: 124px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .menu {
+  display: flex;
+}
+
+footer .menu div:last-child {
+  margin-top: 37px;
+  margin-left: 50px;
+}
+
+footer .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer .contacts .social {
+  margin-top: 11px;
+  margin-bottom: 15px;
+}
+
+footer .contacts .author {
+  color: var(--light-text);
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer .contacts .author p:last-child {
+  text-decoration: underline;
+}
+
+footer .about .company,
+footer .menu .company,
+footer .contacts .company {
+  margin-bottom: 20px;
+  color: var(--dark-gray);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+footer .about .describe,
+footer .menu .describe,
+footer .contacts .describe {
+  margin-bottom: 10px;
+  color: var(--light-text);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer .menu .describe::after {
+  content: attr(data-desktop-text);
+}
+
+@media (max-width: 1439px) {
+  footer {
+    height: 559px;
+    margin-top: 0;
+    padding-top: 45px;
+    flex-direction: column;
+  }
+
+  footer .menu {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+
+  footer .about .company,
+  footer .menu .company,
+  footer .contacts .company {
+    font-size: 12px;
+  }
+
+  footer .about .describe,
+  footer .menu .describe,
+  footer .contacts .describe {
+    font-size: 14px;
+  }
+
+  footer .menu .describe::after {
+    content: attr(data-mobile-text);
+  }
+
+  footer .contacts {
+    padding-top: 10px;
+    align-items: flex-start;
+  }
+
+  footer .contacts .social {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  footer .contacts .author {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+}

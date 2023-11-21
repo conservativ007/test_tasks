@@ -1,0 +1,79 @@
+:root {
+  --dark-gray: #656566;
+  --light-text: #e4e5ea;
+}
+
+header {
+  width: 100%;
+  height: 73px;
+
+  display: flex;
+}
+
+header .logo {
+  margin-top: 11px;
+}
+
+header .logo-describe {
+  margin-top: 10px;
+  color: var(--light-text);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  opacity: 0.8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+  color: var(--light-text);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: 52px;
+  font-family: 'Inter', sans-serif;
+}
+
+header .contacts {
+  margin-top: 15px;
+  margin-left: 137px;
+  color: var(--light-text);
+  font-family: 'Inter', sans-serif;
+
+  display: flex;
+}
+
+header .social {
+  display: flex;
+  gap: 30px;
+  margin-left: 47px;
+}
+
+header .social img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1439px) {
+  header {
+    height: 55px;
+  }
+
+  header .logo {
+    display: none;
+  }
+
+  header nav {
+    margin-left: 0;
+    font-size: 12px;
+    gap: 16px;
+    text-transform: uppercase;
+  }
+
+  header nav p:last-child {
+    display: none;
+  }
+}

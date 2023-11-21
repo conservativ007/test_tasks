@@ -1,0 +1,52 @@
+.purple-ball {
+  position: absolute;
+  left: 868px;
+  top: -2px;
+}
+
+.red-ball {
+  position: absolute;
+  left: 490px;
+  top: 75px;
+}
+
+.purple-ball-light2 {
+  position: absolute;
+  width: 536px;
+
+  filter: blur(40px);
+  opacity: 0.2;
+  left: 435px;
+}
+
+.red-light2 {
+  position: absolute;
+  width: 344px;
+
+  filter: blur(115px);
+  opacity: 0.5;
+  top: 120px;
+  left: -45px;
+}
+
+.red-ball-small {
+  position: absolute;
+  top: 547px;
+  left: 851px;
+}
+
+@media (max-width: 1439px) {
+  .purple-ball {
+    top: 330px;
+    left: 280px;
+    width: 100px;
+    filter: blur(6px);
+  }
+
+  .red-ball {
+    left: 25px;
+    top: 495px;
+    width: 70px;
+    filter: blur(6px);
+  }
+}
