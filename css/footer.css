@@ -1,6 +1,7 @@
 :root {
   --dark-gray: #656566;
   --light-text: #e4e5ea;
+  --black: #0e1014;
 }
 
 footer {
@@ -75,10 +76,16 @@ footer .menu .describe::after {
 
 @media (max-width: 1439px) {
   footer {
-    height: 559px;
+    height: 600px;
     margin-top: 0;
     padding-top: 45px;
     flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0px;
+    padding-left: 20px;
+    background-color: var(--black);
   }
 
   footer .menu {
@@ -114,6 +121,6 @@ footer .menu .describe::after {
 
   footer .contacts .author {
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
 }

@@ -1,13 +1,13 @@
 .purple-ball {
   position: absolute;
-  left: 868px;
+  left: 850px;
   top: -2px;
 }
 
 .red-ball {
   position: absolute;
-  left: 490px;
-  top: 75px;
+  left: 500px;
+  top: 85px;
 }
 
 .purple-ball-light2 {
@@ -31,13 +31,17 @@
 
 .red-ball-small {
   position: absolute;
-  top: 547px;
-  left: 851px;
+  top: 527px;
+  left: 820px;
+}
+
+.purple-light3 {
+  display: none;
 }
 
 @media (max-width: 1439px) {
   .purple-ball {
-    top: 330px;
+    top: 275px;
     left: 280px;
     width: 100px;
     filter: blur(6px);
@@ -45,8 +49,26 @@
 
   .red-ball {
     left: 25px;
-    top: 495px;
+    top: 450px;
     width: 70px;
     filter: blur(6px);
+  }
+
+  .red-light2 {
+    position: absolute;
+    width: 273px;
+    filter: blur(79px);
+    opacity: 0.5;
+    top: 473px;
+    left: -45px;
+  }
+
+  .purple-light3 {
+    position: absolute;
+    display: block;
+    width: 120px;
+    top: 60px;
+    right: 0;
+    filter: blur(120px);
   }
 }
