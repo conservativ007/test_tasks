@@ -1,11 +1,10 @@
 header {
-  width: 980px;
+  margin-top: 0;
   padding-top: 35px;
   padding-bottom: 35px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  
   background-color: #dcdcdc;
+  flex-shrink: 0;
 }
 header .logo {
   display: flex;
@@ -34,4 +33,4 @@ header .contacts {
   font-size: 22px;
   font-weight: 600;
   color: #848484;
-}/*# sourceMappingURL=header.css.map */
+}

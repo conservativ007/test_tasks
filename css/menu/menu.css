@@ -1,27 +1,38 @@
+menu {
+  background-color: #9f9f9f;
+}
+
 menu nav {
+  margin: 0 auto;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #9f9f9f;
 }
-menu nav p {
-  color: white;
+
+menu nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+menu nav ul li {
+  position: relative;
+  height: 22px;
   cursor: pointer;
+  color: white;
 }
-menu nav p:hover {
+
+menu nav ul li:hover {
   border-bottom: 1px solid grey;
 }
-menu nav p + p {
-  margin-left: 20px;
-  position: relative;
-}
-menu nav p + p::before {
+
+menu nav li + li::before {
   position: absolute;
   content: "";
   width: 1px;
   height: 15px;
   background-color: white;
-  top: 5px;
-  left: -10px;
-}/*# sourceMappingURL=menu.css.map */
+  top: 2px;
+  left: -15px;
+} 
